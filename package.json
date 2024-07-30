@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://santimariani.github.io/portfolio",
+  "homepage": "https://www.santimariani.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
