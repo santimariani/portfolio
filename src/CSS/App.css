@@ -1,0 +1,84 @@
+root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 3vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  width: auto; 
+  position: absolute;
+  transform: translate(5vw, 21vh);
+  background-color: white;
+  color: rgb(91, 174, 176);
+  margin: 0;
+  padding: 0px 1vw;
+  z-index:5;
+  font-size: 3vh;
+  white-space: nowrap;
+
+}
+
+h2 {
+  position: absolute;
+  right: 11.5%;
+  bottom: 11.5%;
+  background-color: white;
+  color: rgb(91, 174, 176);
+  margin: 0;
+  padding: 0px 1vw;
+  z-index:5;
+  font-size: 3vh;
+  font-style: italic;
+
+}
+
+h2::before, h2::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  width: 0;
+  height: .5vh;
+  background-color: rgb(91, 174, 176);
+  transition: width 0.4s  ease-in-out;
+}
+
+h2::before {
+  left: 42.5%;
+}
+
+h2::after {
+  right: 42.5%;
+}
+
+h2:hover::before, h2:hover::after {
+  width: 50%;
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#overall {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
