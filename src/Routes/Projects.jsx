@@ -3,18 +3,10 @@ import "../CSS/Projects.css";
 
 // Define each image component
 const HundredDays = () => <img src="/100Days.png" alt="Python RPG Project" />;
-
 const MagicEight = () => <img src="/magic8.png" alt="Magic 8-Ball Project" />;
-
 const Theater = () => <img src="/theater.png" alt="Theater API Project" />;
-
-const RobinsonCrusoe = () => (
-  <img src="/robinsonCrusoe.png" alt="Robinson Crusoe Project" />
-);
-
-const UltimateFighter = () => (
-  <img src="/ultimateFighters2.png" alt="JS Video Game Project" />
-);
+const RobinsonCrusoe = () => <img src="/robinsonCrusoe.png" alt="Robinson Crusoe Project" />;
+const UltimateFighter = () => <img src="/ultimateFighters2.png" alt="JS Video Game Project" />;
 
 // Create an array of components with keys
 const ProjectsArray = [
@@ -30,7 +22,6 @@ const Projects = () => {
   const [prevProjectKey, setPrevProjectKey] = useState("ultimateFighter");
   const [nextProjectKey, setNextProjectKey] = useState("magicEight");
   const [boxTitle, setBoxTitle] = useState("100 DAYS TO VICTORY");
-  const [hovering, setHovering] = useState(false);
 
   useEffect(() => {
     switch (currentProjectKey) {
@@ -77,35 +68,37 @@ const Projects = () => {
 
   return (
     <div id="projectsGrid">
-      <p className={hovering ? "shrink" : ""}>{boxTitle}</p>
-      <div id="projectNavigation">
-        <div
-          className={`square ${hovering ? 'shrink' : ''}`}
-          onClick={() => setCurrentProjectKey(prevProjectKey)}
-        >
-          {prevProjectComponent}
-          <p>Previous</p>
-        </div>
-        <div
-          id="projectDisplay"
-          onMouseEnter={() => setHovering(true)}
-          onMouseLeave={() => setHovering(false)}
-          className={hovering ? 'grow' : ''}
-        >
-          {
-            ProjectsArray.find((project) => project.key === currentProjectKey)
-              .component
-          }
-        </div>
-        <div
-          className={`square ${hovering ? 'shrink' : ''}`}
-          onClick={() => setCurrentProjectKey(nextProjectKey)}
-        >
-          {nextProjectComponent}
-          <p>Next</p>
+      <div id="projectContainer">
+        <p className="project-title">{boxTitle}</p>
+        <div id="projectContent">
+          <div id="leftColumn">
+            <div
+              className="square"
+              onClick={() => setCurrentProjectKey(prevProjectKey)}
+            >
+              {prevProjectComponent}
+              <p>Prev</p>
+            </div>
+            <div
+              className="square"
+              onClick={() => setCurrentProjectKey(nextProjectKey)}
+            >
+              {nextProjectComponent}
+              <p>Next</p>
+            </div>
+          </div>
+          <div id="mainImage">
+            {
+              ProjectsArray.find((project) => project.key === currentProjectKey)
+                .component
+            }
+          </div>
         </div>
       </div>
-      <div id="projectButtons">
+      <div id="buttonsColumn">
+      <button className="projectButtonOutliers" onClick={() => setCurrentProjectKey("hundredDays")}>
+          ALL PROJECTS
+        </button>
         <button className="projectButton" onClick={() => setCurrentProjectKey("hundredDays")}>
           100 Days to Victory
         </button>
@@ -120,6 +113,9 @@ const Projects = () => {
         </button>
         <button className="projectButton" onClick={() => setCurrentProjectKey("ultimateFighter")}>
           Ultimate Fighter 2
+        </button>
+        <button className="projectButton" onClick={() => setCurrentProjectKey("ultimateFighter")}>
+          More to come!
         </button>
       </div>
     </div>

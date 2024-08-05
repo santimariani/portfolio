@@ -67,7 +67,7 @@ header {
 }
 
 #contactButton a:hover {
-  color: #007BFF; /* Optional: Change link color on hover */
+  color: rgb(46, 59, 120); /* Optional: Change link color on hover */
 }
 
 #digitalCard {
