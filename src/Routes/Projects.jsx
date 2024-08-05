@@ -105,20 +105,20 @@ const Projects = () => {
           <p>Next</p>
         </div>
       </div>
-      <div className="project-buttons">
-        <button onClick={() => setCurrentProjectKey("hundredDays")}>
+      <div id="projectButtons">
+        <button className="projectButton" onClick={() => setCurrentProjectKey("hundredDays")}>
           100 Days to Victory
         </button>
-        <button onClick={() => setCurrentProjectKey("magicEight")}>
+        <button className="projectButton" onClick={() => setCurrentProjectKey("magicEight")}>
           Magic 8-Ball
         </button>
-        <button onClick={() => setCurrentProjectKey("theater")}>
+        <button className="projectButton" onClick={() => setCurrentProjectKey("theater")}>
           Theater API
         </button>
-        <button onClick={() => setCurrentProjectKey("robinsonCrusoe")}>
+        <button className="projectButton" onClick={() => setCurrentProjectKey("robinsonCrusoe")}>
           Cinematic Crusoe
         </button>
-        <button onClick={() => setCurrentProjectKey("ultimateFighter")}>
+        <button className="projectButton" onClick={() => setCurrentProjectKey("ultimateFighter")}>
           Ultimate Fighter 2
         </button>
       </div>
