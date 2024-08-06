@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../CSS/ContactForm.css";
 
-// from https://medium.com/@thomasaugot/create-a-react-contact-form-with-email-js-cad2c8606f33, with modifications
-
 const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [stateMessage, setStateMessage] = useState(null);
@@ -24,14 +22,14 @@ const ContactForm = () => {
           setIsSubmitting(false);
           setTimeout(() => {
             setStateMessage(null);
-          }, 5000); // hide message after 5 seconds
+          }, 5000);
         },
         (error) => {
           setStateMessage("Something went wrong, please try again later");
           setIsSubmitting(false);
           setTimeout(() => {
             setStateMessage(null);
-          }, 5000); // hide message after 5 seconds
+          }, 5000);
         }
       );
 
