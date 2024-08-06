@@ -1,12 +1,10 @@
 import React from "react";
-import MarianiDigitalCard from "/MarianiDigitalCard.png";
+import ContactForm from "../Components/ContactForm";
 
 const ContactMe = () => {
   return (
     <div className="center">
-
-      <p>BOO!</p>
-      <img src={MarianiDigitalCard} id="digitalCard"></img>
+      <ContactForm />
     </div>
   );
 };

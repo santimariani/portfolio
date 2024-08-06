@@ -1,0 +1,9 @@
+#digitalCardTitle {
+  width: 100%;
+  text-align: center;
+  color: rgb(91, 174, 176);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  transform: translateY(2.5vh);
+}

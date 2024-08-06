@@ -1,10 +1,12 @@
 import React from "react";
 import MarianiDigitalCard from "/MarianiDigitalCard.png";
 
+import "../CSS/DigitalCard.css"
+
 const DigitalCard = () => {
   return (
     <div className="center">
-      <p>SCAN MY CONTACT INFO</p>
+      <p id="digitalCardTitle">SCAN FOR CONTACT CARD</p>
       <img src={MarianiDigitalCard} id="digitalCard"></img>
     </div>
   );

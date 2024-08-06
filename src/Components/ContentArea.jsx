@@ -24,6 +24,9 @@ const ContentArea = () => {
       case "/digital-card":
         setBoxTitle("DIGITAL CARD");
         break;
+        case "/contact-me":
+          setBoxTitle("CONTACT ME");
+          break;
       default:
         setBoxTitle("NOT FOUND");
         break;
@@ -37,9 +40,11 @@ const ContentArea = () => {
         <p id="title">FULL-STACK SOFTWARE DEVELOPER</p>
       </header>
       <h1>{boxTitle}</h1>
-      {/* <Link to="/contact-me"> */}
-        <h2>LET'S CHAT!</h2>
-      {/* </Link> */}
+      <div id="contactButton">
+        <Link to="/contact-me">
+          <h2>LET'S CHAT!</h2>
+        </Link>
+      </div>
       <section id="mainContent">
         <AllRoutes />
       </section>

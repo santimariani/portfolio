@@ -5,7 +5,7 @@
   overflow: hidden;
 }
 
-#projectsGrid .project-title {
+#projectsGrid .projectTitle {
   width: 100%;
   text-align: center;
   color: rgb(91, 174, 176);
@@ -20,7 +20,7 @@
   flex-direction: column;
   width: 90%;
   padding-right: 2vw;
-  border-right: 1px solid #ccc;
+  border-right: .25vw solid #ccc;
 }
 
 #projectContent {
@@ -75,7 +75,6 @@
   max-height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
-
 }
 
 #mainImage:hover img {
@@ -91,8 +90,8 @@
   padding-left: 2vw;
 }
 
-#buttonsColumn .projectButton, .projectButtonOutliers {
-  
+#buttonsColumn .projectButton,
+#buttonsColumn .projectButtonOutliers {
   width: 100%;
   text-align: left;
   font-weight: bold;
@@ -104,12 +103,47 @@
   cursor: pointer;
   border: none;
   text-transform: uppercase;
+  transition: background-color 0.3s ease;
 }
 
 #buttonsColumn .projectButtonOutliers {
   width: 100%;
   background-color: rgb(91, 174, 176);
   text-align: center;
+}
 
+#buttonsColumn .active {
+  background-color: rgb(91, 174, 176);
+}
+
+#commentsSection {
+  padding-top: 2.5vh;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  overflow: hidden;
+}
+
+#commentsSection .bold {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2.5vh;
+}
+
+#commentsSection .italics {
+  font-style: italic;
+  font-size: 2.5vh;
+}
+
+
+.navLink {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the inherited text color */
+  padding: 0.5vw; /* Optional: Add some padding around the link */
+}
+
+.navLink:hover {
+  color: #007BFF; /* Optional: Change link color on hover */
 }
 
