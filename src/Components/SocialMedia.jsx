@@ -59,6 +59,32 @@ const SocialMedia = () => {
         </li>
         <li class="icon-content">
           <a
+            href="https://www.facebook.com/GoSpartanburg/"
+            aria-label="Facebook"
+            data-social="facebook"
+            target="_blank"
+          >
+            <div class="filled"></div>
+            <svg
+              id="facebook"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-facebook"
+              viewBox="0 0 16 16"
+              xml:space="preserve"
+            >
+              <path
+                d="M8,1c-3.866,0-7,3.134-7,7,0,3.283,2.26,6.038,5.309,6.794v-4.655h-1.444v-2.139h1.444v-.922c0-2.382,1.078-3.487,3.418-3.487,.444,0,1.208,.087,1.521,.174v1.939c-.165-.018-.452-.026-.809-.026-1.148,0-1.592,.435-1.592,1.565v.757h2.287l-.393,2.139h-1.893v4.81c3.466-.419,6.152-3.37,6.152-6.948,0-3.866-3.134-7-7-7Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+          <div class="tooltip">Facebook</div>
+        </li>
+        <li class="icon-content">
+          <a
             href="https://www.youtube.com/watch?v=hw2tBIaBSX0"
             aria-label="Youtube"
             data-social="youtube"
@@ -82,31 +108,7 @@ const SocialMedia = () => {
           </a>
           <div class="tooltip">Youtube</div>
         </li>
-        <li class="icon-content">
-          <a
-            href="https://www.facebook.com/GoSpartanburg/"
-            aria-label="Facebook"
-            data-social="facebook"
-            target="_blank"
-          >
-            <div class="filled"></div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-facebook"
-              viewBox="0 0 16 16"
-              xml:space="preserve"
-            >
-              <path
-                d="M8,1c-3.866,0-7,3.134-7,7,0,3.283,2.26,6.038,5.309,6.794v-4.655h-1.444v-2.139h1.444v-.922c0-2.382,1.078-3.487,3.418-3.487,.444,0,1.208,.087,1.521,.174v1.939c-.165-.018-.452-.026-.809-.026-1.148,0-1.592,.435-1.592,1.565v.757h2.287l-.393,2.139h-1.893v4.81c3.466-.419,6.152-3.37,6.152-6.948,0-3.866-3.134-7-7-7Z"
-                fill="currentColor"
-              ></path>
-            </svg>
-          </a>
-          <div class="tooltip">Facebook</div>
-        </li>
+       
       </ul>
     </>
   );

@@ -9,9 +9,9 @@
     transform: translate(-2vw, -33vh)
   }
   .example-2 .icon-content {
-    margin: 0 10px;
+    margin: 0 .1vh;
     position: relative;
-    padding: 0.5rem;
+    padding: 0.75vh;
   }
   .example-2 .icon-content .tooltip {
     position: absolute;
@@ -19,11 +19,11 @@
     left: 115%;
     transform: translateY(200%);
     color: #fff;
-    padding: 6px 10px;
-    border-radius: 5px;
+    padding: .45vh .5vh;
+    border-radius: .5vh;
     opacity: 0;
     visibility: hidden;
-    font-size: 14px;
+    font-size: 2vh;
     transition: all 0.3s ease;
   }
   .example-2 .icon-content:hover .tooltip {
@@ -37,8 +37,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 6vh;
+    height: 6vh;
     border-radius: 50%;
     color: #4d4d4d;
     background-color: #fff;
@@ -50,9 +50,22 @@
   .example-2 .icon-content a svg {
     position: relative;
     z-index: 1;
-    width: 30px;
-    height: 30px;
+    width: 3.5vh;
+    height: 3.5vh;
   }
+
+  #facebook {
+    width:4vh;
+    height: 4vh;
+  }
+
+  .example-2 .icon-content a svg {
+    position: relative;
+    z-index: 1;
+    width: 3.5vh;
+    height: 3.5vh;
+  }
+
   .example-2 .icon-content a:hover {
     color: white;
   }
