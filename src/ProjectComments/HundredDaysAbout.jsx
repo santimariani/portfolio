@@ -4,11 +4,11 @@ const HundredDaysAbout = () => {
         <p>
           <span className="bold">LINK:</span> 
           <a href="https://github.com/santimariani/100_Days_To_Victory" className="navLink" target="_blank">
-            GitHub
+          GitHub Repository
           </a>
         </p>
         <p>
-          <span className="bold">TECH:</span> Python • OOP • Terminal • Git • GitHub 
+          <span className="bold">TECH:</span> Python • Object Oriented Programming • Terminal • Git • GitHub 
         </p>
         <br></br>
         <p>

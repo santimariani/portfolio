@@ -5,7 +5,7 @@ const MagicEightAbout = () => {
           <span className="bold">LINK:</span> 
           <a href="https://github.com/santimariani/magic_8" className="navLink" target="_blank"
           >
-            GitHub
+          GitHub Repository
           </a>
         </p>
         <p>

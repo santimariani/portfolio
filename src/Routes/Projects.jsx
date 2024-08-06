@@ -40,7 +40,7 @@ const ProjectsArray = [
   { 
     component: <Theater />, 
     key: "theater", 
-    title: "THEATER API",
+    title: "DYNAMIC THEATER API",
     comment: <TheaterAbout />
   },
   {
@@ -52,7 +52,7 @@ const ProjectsArray = [
   {
     component: <Shrinkify />,
     key: "shrinkify",
-    title: "SHRINKIFY MY URL",
+    title: "SHRINKIFY MY URL!",
     comment: <ShrinkifyAbout />
   },
   {
@@ -160,7 +160,7 @@ const Projects = () => {
             }`}
             onClick={() => setCurrentProjectKey("theater")}
           >
-            Theater API
+            Dynamic Theater API
           </button>
           <button
             className={`projectButton ${

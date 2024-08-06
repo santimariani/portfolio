@@ -4,11 +4,11 @@ const TheaterAbout = () => {
         <p>
           <span className="bold">LINK:</span> 
           <a href="https://github.com/santimariani/theater" className="navLink" target="_blank">
-            GitHub
+          GitHub Repository
           </a>
         </p>
         <p>
-          <span className="bold">TECH:</span> API • SVG • Sound • Visual Animation
+          <span className="bold">TECH:</span> API • SVG • Sound Implementation • Visual Animation
         </p>
         <br></br>
         <p>

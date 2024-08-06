@@ -4,7 +4,7 @@ const ShrinkifyAbout = () => {
         <p>
           <span className="bold">LINK:</span> 
           <a href="https://github.com/santimariani/shrinkui" className="navLink" target="_blank">
-            GitHub 
+          GitHub Repository
           </a>
         </p>
         <p>

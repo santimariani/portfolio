@@ -67,11 +67,6 @@ header {
   color: rgb(46, 59, 120);
 }
 
-#digitalCard {
-  height: 50vh;
-  width: auto;
-}
-
 footer {
   display: flex;
   flex-direction: column;

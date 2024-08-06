@@ -4,7 +4,7 @@ const UltimateFighterAbout = () => {
         <p>
           <span className="bold">LINK:</span> 
           <a href="https://github.com/santimariani/100_days_phaser" className="navLink" target="_blank">
-            GitHub 
+          GitHub Repository
           </a>•
           <a href="https://ultimate-fighter-ii.netlify.app/" className="navLink">
             Online Demo 

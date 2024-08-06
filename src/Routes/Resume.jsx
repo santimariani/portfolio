@@ -8,7 +8,7 @@ const Resume = () => {
         width="100%"
         height="600px"
         style={{ border: "none" }}
-        title="My Resume"
+        title="Santiago Mariani - Resume"
       >
         Your browser does not support iframes. Contact me for copy of resume.
       </iframe>

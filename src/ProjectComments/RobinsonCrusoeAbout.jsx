@@ -4,12 +4,12 @@ const RobinsonCrusoeAbout = () => {
       <p>
         <span className="bold">LINK:</span>
         <a href="https://github.com/santimariani/crusoe" className="navLink" target="_blank">
-          GitHub
+          GitHub Repository
         </a>
       </p>
       <p>
         <span className="bold">TECH:</span> FastAPI • PostgreSQL • Postico •
-        Video & Sound
+        Video Implementation
       </p>
       <br></br>
       <p>

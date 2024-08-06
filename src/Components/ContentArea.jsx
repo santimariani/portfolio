@@ -1,4 +1,4 @@
-import React, { useState, useEffect  } from "react";
+import React, { useState, useEffect } from "react";
 import NavBar from "./NavBar.jsx";
 import AllRoutes from "./AllRoutes.jsx";
 import "../CSS/ContentArea.css";
@@ -18,15 +18,18 @@ const ContentArea = () => {
       case "/resume":
         setBoxTitle("RESUME");
         break;
+      case "/hidden-resume":
+        setBoxTitle("HOW DID YOU GET HERE?!");
+        break;
       case "/projects":
         setBoxTitle("PROJECTS");
         break;
       case "/digital-card":
         setBoxTitle("DIGITAL CARD");
         break;
-        case "/contact-me":
-          setBoxTitle("CONTACT ME");
-          break;
+      case "/contact-me":
+        setBoxTitle("CONTACT ME");
+        break;
       default:
         setBoxTitle("NOT FOUND");
         break;
