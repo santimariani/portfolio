@@ -8,7 +8,7 @@ const ShrinkifyAbout = () => {
           </a>
         </p>
         <p>
-          <span className="bold">TECH:</span> React • React Router • JWTs/Tokens • User Creation/Authentication • Password Hashing • Password Salting (Cryptography) 
+          <span className="bold">TECH:</span> React • React Router • JWTs / Tokens • User Creation / Authentication • Password Hashing • Password Salting (Cryptography) 
         </p>
         <br></br>
         <p>
