@@ -33,11 +33,11 @@ header {
   width: 55vw;
   box-sizing: border-box;
   padding: 2.5vh;
-  border-bottom: 0.5vw rgb(91, 174, 176) solid;
-  border-top: 0.5vw rgb(91, 174, 176) solid;
-  border-left: 0.4vw rgb(91, 174, 176) solid;
-  border-right: 0.4vw rgb(91, 174, 176) solid;
-  transform: translateX(1.5vw);
+  border-bottom: 0.75vh rgb(91, 174, 176) solid;
+  border-top: 0.75vh rgb(91, 174, 176) solid;
+  border-left: 0.6vh rgb(91, 174, 176) solid;
+  border-right: 0.6vh rgb(91, 174, 176) solid;
+  transform: translateX(2.5vh);
   overflow: auto;
   text-align:right;
   align-items: right;
@@ -51,7 +51,7 @@ header {
   right: 11vh;
   bottom: 11.15vh;
   color: #fff;
-  padding: 10px 20px;
+  padding: 1vh 2vh;
   white-space: nowrap;
   z-index: 4;
   cursor: pointer;

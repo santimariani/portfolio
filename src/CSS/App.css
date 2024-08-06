@@ -20,11 +20,11 @@ p {
 h1 {
   width: auto; 
   position: absolute;
-  transform: translate(5vw, 21vh);
+  transform: translate(7.5vh, 21vh);
   background-color: white;
   color: rgb(91, 174, 176);
   margin: 0;
-  padding: 0px 1vw;
+  padding: 0px 2.5vh;
   z-index:5;
   font-size: 3vh;
   white-space: nowrap;
@@ -38,7 +38,7 @@ h2 {
   background-color: white;
   color: rgb(91, 174, 176);
   margin: 0;
-  padding: 0px 1vw;
+  padding: 0px 2.5vh;
   z-index:5;
   font-size: 3vh;
   font-style: italic;
@@ -48,7 +48,7 @@ h2 {
 h2::before, h2::after {
   content: "";
   position: absolute;
-  bottom: -1px;
+  bottom: -.1vh;
   width: 0;
   height: .5vh;
   background-color: rgb(91, 174, 176);

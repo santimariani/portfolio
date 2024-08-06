@@ -1,6 +1,6 @@
 #imageSide {
   height: 100vh;
-  width: 40vw;
+  width: 75vh;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -9,7 +9,7 @@
 #imageSideBackground {
   position: absolute;
   content: "";
-  width: 40vw;
+  width: 75vh;
   height: 100vh;
   background: linear-gradient(to left, rgb(46, 59, 120), rgb(46, 102, 120));
   clip-path: polygon(0vw 0vh, 40vw 0vh, 10vw 100vh, 0vw 100vh);
@@ -19,12 +19,12 @@
 #imageSideBorder {
   position: absolute;
   content: "";
-  width: 40vw;
+  width: 80vh;
   height: 100vh;
   background-color: rgb(91, 174, 176);
   clip-path: polygon(0vw 0vh, 40vw 0vh, 10vw 100vh, 0vw 100vh);
   z-index: 1;
-  transform: translateX(0.75vw);
+  transform: translateX(1vh);
 }
 
 .imageWrapper {
@@ -35,16 +35,16 @@
 #santiImage {
   position: absolute;
   height: 100vh;
-  width: 43vw;
+  width: 75vh;
   z-index: 3;
-  transform: translateX(-10vw);
+  transform: translateX(-12.5vh);
   will-change: filter;
   transition: filter 300ms;
 }
 
 #santiImage:hover,
 .imageWrapper:hover #santiImage {
-  filter: drop-shadow(0 0 3em #eaebee5a);
+  filter: drop-shadow(0 0 5vh #eaebee5a);
 }
 
 .playBioButton {
@@ -55,9 +55,9 @@
   transform: translateX(80%);
   background-color: rgb(46, 59, 120);
   color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 1em;
+  padding: 1vh 2vh;
+  border-radius: .5vh;
+  font-size: 3vh;
   white-space: nowrap;
   z-index: 4;
   cursor: pointer;

@@ -6,7 +6,7 @@
     align-items: center;
     flex-direction: column;
     z-index: 4;
-    transform: translate(-2vw, -33vh)
+    transform: translate(-2vh, -33vh)
   }
   .example-2 .icon-content {
     margin: 0 .1vh;
@@ -45,7 +45,7 @@
     transition: all 0.3s ease-in-out;
   }
   .example-2 .icon-content a:hover {
-    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+    box-shadow: .3vh .2vh 4.5vh 0px rgb(0 0 0 / 12%);
   }
   .example-2 .icon-content a svg {
     position: relative;

@@ -46,16 +46,16 @@
   #contactForm input,
   #contactForm textarea {
     width: 100%;
-    padding: 1vw;
+    padding: .75vh;
     margin-bottom: 1.25vh;
-    border: 0.2vw solid rgb(91, 174, 176);
-    border-radius: 0.5vw;
+    border: 0.25vh solid rgb(91, 174, 176);
+    border-radius: 0.75vh;
     font-size: 2.5vh;
     box-sizing: border-box;
   }
 
   #contactForm textarea {
-    height: 15vh;
+    height: 24vh;
   }
   
   #contactForm input[type="submit"] {
