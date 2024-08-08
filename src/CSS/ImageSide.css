@@ -1,6 +1,6 @@
 #imageSide {
   height: 100vh;
-  width: 75vh;
+  width: 40vw;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -9,8 +9,8 @@
 #imageSideBackground {
   position: absolute;
   content: "";
-  width: 75vh;
-  height: 100vh;
+  width: 40vw;
+  height: 500vh;
   background: linear-gradient(to left, rgb(46, 59, 120), rgb(46, 102, 120));
   clip-path: polygon(0vw 0vh, 40vw 0vh, 10vw 100vh, 0vw 100vh);
   z-index: 2;
@@ -20,7 +20,7 @@
   position: absolute;
   content: "";
   width: 80vh;
-  height: 100vh;
+  height: 300vh;
   background-color: rgb(91, 174, 176);
   clip-path: polygon(0vw 0vh, 40vw 0vh, 10vw 100vh, 0vw 100vh);
   z-index: 1;
