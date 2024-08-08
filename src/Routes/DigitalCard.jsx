@@ -1,5 +1,7 @@
-import React, { Link } from "react";
+import React from "react";
 import MarianiDigitalCard from "/MarianiDigitalCard.png";
+import { Link } from "react-router-dom";
+
 
 import "../CSS/DigitalCard.css";
 
