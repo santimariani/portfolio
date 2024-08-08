@@ -20,9 +20,10 @@ const About = () => {
         Originally born in Argentina (
         <span className="italics">hablo español</span>), I moved to the United
         States in 1996, falling in love with the culture of my new home. After
-        having majored in Finance, I devoted the next ten years to service work
-        through my church. Grateful for these years of service, I returned to my
-        beloved Spartanburg, to be closer to my family, friends, and roots.
+        having majored in Finance, I devoted the next ten years to non-profit
+        service work, locally and abroad. Grateful for these years of service, I
+        returned to my beloved Spartanburg, to be closer to my family, friends,
+        and roots.
         <br></br>
         <br></br>
         Three years ago, I became a realtor, a City of Spartanburg planning
