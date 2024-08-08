@@ -6,7 +6,8 @@ const UltimateFighterAbout = () => {
           <a href="https://github.com/santimariani/100_days_phaser" className="navLink" target="_blank">
           GitHub Repository
           </a>•
-          <a href="https://ultimate-fighter-ii.netlify.app/" className="navLink">
+          <a href="https://ultimate-fighter-ii.netlify.app/" className="navLink" target="_blank"
+          >
             Online Demo 
           </a>
         </p>

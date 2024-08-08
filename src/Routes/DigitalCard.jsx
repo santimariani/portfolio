@@ -6,8 +6,11 @@ import "../CSS/DigitalCard.css"
 const DigitalCard = () => {
   return (
     <div className="center">
-      <p id="digitalCardTitle">SCAN FOR CONTACT CARD</p>
+      <p id="digitalCardTitle">SCAN FOR CONTACT</p>
       <img src={MarianiDigitalCard} id="digitalCard"></img>
+      <a href="https://santimariani.com/contact-me" className="contactButton">
+        OR CONTACT ME HERE
+      </a>
     </div>
   );
 };

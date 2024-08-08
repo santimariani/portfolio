@@ -11,6 +11,7 @@ body {
   padding: 0;
   font-size: 3vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: hidden;
 }
 
 p {
