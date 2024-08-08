@@ -73,3 +73,25 @@ footer {
   padding-bottom: 2.5vh;
   text-align: center;
 }
+
+
+@media (max-width: 600px) {
+  #name {
+    width: 450px;
+    font-size: 3vh;
+    font-weight: bolder;
+    transform: translateX(-40%);
+    position: absolute;
+    z-index:4
+  }
+  
+  #title {
+    width: 450px;
+    transform: translate(-40%, 110%);
+    font-size: 2.25vh;
+    font-style: italic;
+    position: absolute;
+    z-index:4
+  }
+}
+

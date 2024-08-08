@@ -30,5 +30,21 @@
   ul {
     list-style: none;
   }
+
+  
+@media (max-width: 600px) {
+  .navbar {
+    width: 100vw !important;
+    position: absolute;
+    font-size: 3vh;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display list items in a row */
+    justify-content: left; /* Center the navigation items */
+    background-color: white;
+  }
+}
   
   

@@ -100,3 +100,15 @@
   .example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
     background-color: #ff0000;
   }
+
+
+@media (max-width: 600px) {
+  .example-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 4;
+    transform: translate(-5vh, -33vh)
+  }
+}

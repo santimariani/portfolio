@@ -11,7 +11,7 @@ const ImageSide = () => {
       <SocialMedia />
       <div className="imageWrapper">
         <img src={santiImage} id="santiImage" alt="Santi" />
-        <div className="playBioButton">PLAY BIO</div>
+        {/* <div className="playBioButton">PLAY BIO</div> */}
       </div>
       <div id="imageSideBackground"></div>
       <div id="imageSideBorder"></div>

@@ -70,3 +70,14 @@
   opacity: 1;
   visibility: visible;
 }
+
+@media (max-width: 600px) {
+  #santiImage {
+    position: absolute;
+    height: 50vh !important;
+    width: 37.5vh !important;
+    z-index: 3;
+    scale: 1.4;
+    transform: translate(-18vh, 30vh) !important; 
+  }
+}
