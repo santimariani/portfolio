@@ -13,7 +13,8 @@ const About = () => {
         patterns that have helped me take my ambitions beyond the classroom
         walls. I enjoy building beautiful and functional web platforms, yet also
         the logic that makes for an efficient user experience. For more on the
-        evolution of my software development journey, see the Projects section!
+        evolution of my software development journey, see the Projects section
+        below!
         <br></br>
         <br></br>
         Originally born in Argentina (
