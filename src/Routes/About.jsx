@@ -11,7 +11,9 @@ const About = () => {
         An alumnus of the <span className="italics">Carolina Code School</span>,
         I learned to quickly absorb new technologies and to recognize software
         patterns that have helped me take my ambitions beyond the classroom
-        walls. 
+        walls. I enjoy building beautiful and functional web platforms, yet also
+        the logic that makes for an efficient user experience. For more on the
+        evolution of my software development journey, see the Projects section!
         <br></br>
         <br></br>
         Originally born in Argentina (
