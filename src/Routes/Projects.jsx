@@ -15,9 +15,7 @@ const Theater = () => <img src="/theater.png" alt="Theater API Project" />;
 const RobinsonCrusoe = () => (
   <img src="/robinsonCrusoe.png" alt="Robinson Crusoe Project" />
 );
-const Shrinkify = () => (
-  <img src="/shrinkify.png" alt="Shrinkify Project" />
-);
+const Shrinkify = () => <img src="/shrinkify.png" alt="Shrinkify Project" />;
 
 const UltimateFighter = () => (
   <img src="/ultimateFighters2.png" alt="JS Video Game Project" />
@@ -29,37 +27,37 @@ const ProjectsArray = [
     component: <HundredDays />,
     key: "hundredDays",
     title: "100 DAYS TO VICTORY",
-    comment: <HundredDaysAbout />
+    comment: <HundredDaysAbout />,
   },
   {
     component: <MagicEight />,
     key: "magicEight",
     title: "THE MAGIC 8 BLACK BALLHOLE",
-    comment: <MagicEightAbout />
+    comment: <MagicEightAbout />,
   },
-  { 
-    component: <Theater />, 
-    key: "theater", 
+  {
+    component: <Theater />,
+    key: "theater",
     title: "DYNAMIC THEATER API",
-    comment: <TheaterAbout />
+    comment: <TheaterAbout />,
   },
   {
     component: <RobinsonCrusoe />,
     key: "robinsonCrusoe",
     title: "CINEMATIC CRUSOE",
-    comment: <RobinsonCrusoeAbout />
+    comment: <RobinsonCrusoeAbout />,
   },
   {
     component: <Shrinkify />,
     key: "shrinkify",
     title: "SHRINKIFY MY URL!",
-    comment: <ShrinkifyAbout />
+    comment: <ShrinkifyAbout />,
   },
   {
     component: <UltimateFighter />,
     key: "ultimateFighter",
     title: "ULTIMATE FIGHTER 2",
-    comment: <UltimateFighterAbout />
+    comment: <UltimateFighterAbout />,
   },
 ];
 
@@ -68,7 +66,9 @@ const Projects = () => {
   const [prevProjectKey, setPrevProjectKey] = useState("ultimateFighter");
   const [nextProjectKey, setNextProjectKey] = useState("magicEight");
   const [boxTitle, setBoxTitle] = useState("100 Days to Victory");
-  const [commentSection, setCommentSection] = useState(<UltimateFighterAbout/>);
+  const [commentSection, setCommentSection] = useState(
+    <UltimateFighterAbout />
+  );
 
   useEffect(() => {
     const currentProject = ProjectsArray.find(
@@ -99,12 +99,12 @@ const Projects = () => {
   ).component;
 
   return (
-    <>
-      <section id="projectsGrid">
-        <div id="projectContainer">
-          <p className="projectTitle">{boxTitle}</p>
-          <div id="projectContent">
-            <div id="leftColumn">
+    <section id="overallGrid">
+      <div id="topRow">
+        <div id="topLeftSide">
+          <div id="titleArea">{boxTitle}</div>
+          <div id="thumbnailArea">
+            <div id="prevNextThumbnails">
               <div
                 className="square"
                 onClick={() => setCurrentProjectKey(prevProjectKey)}
@@ -120,7 +120,7 @@ const Projects = () => {
                 <p>Next</p>
               </div>
             </div>
-            <div id="mainImage">
+            <div id="mainProjectThumbail">
               {
                 ProjectsArray.find(
                   (project) => project.key === currentProjectKey
@@ -129,7 +129,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div id="buttonsColumn">
+        <div id="topRightSide">
           <button
             className={`projectButtonOutliers ${
               currentProjectKey === "hundredDays" ? "active" : ""
@@ -186,12 +186,11 @@ const Projects = () => {
           >
             Ultimate Fighter 2
           </button>
+          
         </div>
-      </section>
-      <section id="commentsSection">
-        {commentSection}
-      </section>
-    </>
+      </div>
+      <div id="commentsSection">{commentSection}</div>
+    </section>
   );
 };
 

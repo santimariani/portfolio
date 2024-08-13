@@ -1,47 +1,52 @@
-#projectsGrid {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  overflow: hidden;
+#overalGrid {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1.5fr 1fr;
 }
 
-#projectsGrid .projectTitle {
+#topRow {
   width: 100%;
+  height: 75%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+#topLeftSide {
+  display: flex;
+  flex-direction: column;
+  padding-right: 3vh;
+  border-right: 0.25vh solid #ccc;
+}
+
+#titleArea {
+  display: flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   color: rgb(91, 174, 176);
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 1vh;
   font-style: italic;
-  transform: translateY(-0.6vh);
+  padding-bottom: 1vh;
+}
+#thumbnailArea {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
-#projectContainer {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  padding-right: 3vh;
-  border-right: 0.25vh solid #ccc;
-}
-
-#projectContent {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#leftColumn {
+#prevNextThumbnails {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 20%;
+  justify-content: space-around;
 }
 
-#leftColumn .square {
-  width: 12vh;
-  height: 12vh;
+.square {
+  width: 65%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,14 +54,14 @@
   cursor: pointer;
 }
 
-#leftColumn .square img {
+.square img {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
   box-shadow: 0.25vh 0.25vh 0.5vh rgba(0, 0, 0, 0.7);
 }
 
-#leftColumn .square p {
+.square p {
   color: rgb(91, 174, 176);
   text-transform: uppercase;
   font-weight: bold;
@@ -64,37 +69,36 @@
   font-style: italic;
 }
 
-#mainImage {
-  width: 50vh;
-  height: 26.6vh;
+#mainProjectThumbail {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   box-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.7);
 }
 
-#mainImage img {
+#mainProjectThumbail img {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
 
-#mainImage:hover img {
+#mainProjectThumbail:hover img {
   transform: scale(1.1);
 }
 
-#buttonsColumn {
-  width: 30%;
+#topRightSide {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   padding-left: 2.5vh;
+  overflow: visible;
 }
 
-#buttonsColumn .projectButton,
-#buttonsColumn .projectButtonOutliers {
+.projectButton,
+.projectButtonOutliers {
   width: 100%;
   font-size: 2vh;
   text-align: left;
@@ -108,27 +112,28 @@
   border: none;
   text-transform: uppercase;
   transition: background-color 0.3s ease;
+  
 }
 
-#buttonsColumn .projectButtonOutliers {
-  width: 100%;
+.projectButtonOutliers {
   background-color: rgb(91, 174, 176);
   text-align: center;
 }
 
-#buttonsColumn .active {
+#topRightSide .active {
   background-color: rgb(91, 174, 176);
 }
 
 #commentsSection {
+  display: flex;
+  flex-direction: column;
   padding-top: 2.5vh;
   box-sizing: border-box;
   width: 100%;
-  height: auto;
+  height: 25%;
   text-align: left;
-  overflow: hidden;
+  overflow: visible;
   font-size: 2.5vh;
-
 }
 
 #commentsSection .bold {
@@ -149,7 +154,7 @@
 }
 
 .navLink:hover {
-  color: #007bff; 
+  color: #007bff;
 }
 
 .bold {
@@ -171,4 +176,3 @@
 .italics {
   font-style: italic;
 }
-
