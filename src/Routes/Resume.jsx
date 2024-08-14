@@ -10,7 +10,12 @@ const Resume = () => {
         style={{ border: "none" }}
         title="Santiago Mariani - Resume"
       >
-        Your browser does not support iframes. Contact me for copy of resume.
+        <p>
+          Your device doesn't support displaying PDFs inline.{" "}
+          <a href="/MarianiResume.pdf" download>
+            Click here to download the resume.
+          </a>
+        </p>
       </iframe>
     </>
   );
