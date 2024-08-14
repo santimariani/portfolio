@@ -195,7 +195,7 @@ footer {
   #mainContent {
     display: flex;
     flex-direction: column;
-    max-height: 65vh;
+    max-height: 60vh;
     width: 96vw;
     border-bottom: 0.75vh rgb(91, 174, 176) solid;
     border-top: 0.75vh rgb(91, 174, 176) solid;
@@ -270,7 +270,7 @@ footer {
     font-style: italic;
   }
   footer {
-    position: relative;
+    position: fixed;
     width: 100vw;
     height: 7vh;
     bottom: -1vh;
