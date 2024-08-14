@@ -80,7 +80,6 @@ h2:hover::after {
   min-width: 60vw;
   max-width: 60vw;
   max-height: 15vw;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -90,7 +89,6 @@ h2:hover::after {
   font-style: italic;
   max-width: 60vw;
   max-height: 10vw;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -145,7 +143,7 @@ footer {
   height: 10vh;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   #contentArea {
     height: 81vh;
     width: 100vw;
@@ -197,7 +195,7 @@ footer {
   #mainContent {
     display: flex;
     flex-direction: column;
-    height: 65vh;
+    max-height: 65vh;
     width: 96vw;
     border-bottom: 0.75vh rgb(91, 174, 176) solid;
     border-top: 0.75vh rgb(91, 174, 176) solid;

@@ -101,7 +101,7 @@
   background-color: #ff0000;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   .example-2 {
     position: fixed;
     top: 10vh;

@@ -34,7 +34,7 @@ p {
   overflow: hidden;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   body {
     margin: 0;
     padding: 0;
