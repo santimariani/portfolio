@@ -1,6 +1,6 @@
 #overalGrid {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   display: grid;
   grid-template-rows: 1.5fr 1fr;
 }
@@ -112,7 +112,6 @@
   border: none;
   text-transform: uppercase;
   transition: background-color 0.3s ease;
-  
 }
 
 .projectButtonOutliers {
@@ -154,7 +153,7 @@
 }
 
 .navLink:hover {
-  color: rgb(46, 59, 120)
+  color: rgb(46, 59, 120);
 }
 
 .bold {
@@ -175,4 +174,184 @@
 
 .italics {
   font-style: italic;
+}
+
+@media (max-width: 700px) {
+  #overalGrid {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #topRow {
+    width: 100%;
+    height: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #topLeftSide {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0vh;
+    border-right: 0vh solid #ccc;
+
+  }
+
+  #titleArea {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(91, 174, 176);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1vh;
+    font-style: italic;
+    padding-bottom: 1vh;
+  }
+  #thumbnailArea {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #prevNextThumbnails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .square {
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .square img {
+    max-width: 90%;
+    object-fit: cover;
+    box-shadow: 0.25vh 0.25vh 0.5vh rgba(0, 0, 0, 0.7);
+  }
+
+  .square p {
+    color: rgb(91, 174, 176);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.75vh;
+    font-style: italic;
+  }
+
+  #mainProjectThumbail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.7);
+    margin-bottom: 2.2vh;
+  }
+
+  #mainProjectThumbail img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  #mainProjectThumbail:hover img {
+    transform: scale(1.1);
+  }
+
+  #topRightSide {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 0vh;
+    padding-bottom: 1vh;
+    overflow: visible;
+  }
+
+  .projectButton,
+  .projectButtonOutliers {
+    width: 100%;
+    font-size: 2vh;
+    text-align: left;
+    font-weight: bold;
+    background-color: rgba(91, 175, 176, 0.654);
+    color: #fff;
+    padding: 0.75vh 0.75vh;
+    margin: 0.5vh 0;
+    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+
+  .projectButtonOutliers {
+    background-color: rgb(91, 174, 176);
+    text-align: center;
+  }
+
+  #topRightSide .active {
+    background-color: rgb(91, 174, 176);
+  }
+
+  #commentsSection {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5vh;
+    box-sizing: border-box;
+    width: 100%;
+    height: 25%;
+    text-align: left;
+    overflow: visible;
+    font-size: 2.5vh;
+  }
+
+  #commentsSection .bold {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.5vh;
+  }
+
+  #commentsSection .italics {
+    font-style: italic;
+    font-size: 2.5vh;
+  }
+
+  .navLink {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the inherited text color */
+    padding: 0.75vh; /* Optional: Add some padding around the link */
+  }
+
+  .navLink:hover {
+    color: rgb(46, 59, 120);
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left {
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .italics {
+    font-style: italic;
+  }
 }
