@@ -1,38 +1,37 @@
 .navbar {
-    font-size: 3vh;
-    font-weight: bold;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex; /* Display list items in a row */
-    justify-content: center; /* Center the navigation items */
-  }
-  
-  .navbar li {
-    margin: 0 vw; /* Add spacing between items */
-  }
-  
-  .navbar li:not(:last-child)::after {
-    font-weight: lighter;
-    content: "•";
-  }
-  
-  .navbar a {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Use the inherited text color */
-    padding: .75vh; /* Optional: Add some padding around the link */
-  }
-  
-  .navbar a:hover {
-    color:   rgb(46, 59, 120) /* Optional: Change link color on hover */
-  }
+  font-size: 3vh;
+  font-weight: bold;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display list items in a row */
+  justify-content: center; /* Center the navigation items */
+}
 
-  ul {
-    list-style: none;
-  }
+.navbar li {
+  margin: 0 vw; /* Add spacing between items */
+}
 
-  
-@media (max-width: 600px) {
+.navbar li:not(:last-child)::after {
+  font-weight: lighter;
+  content: "•";
+}
+
+.navbar a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the inherited text color */
+  padding: 0.75vh; /* Optional: Add some padding around the link */
+}
+
+.navbar a:hover {
+  color: rgb(46, 59, 120); /* Optional: Change link color on hover */
+}
+
+ul {
+  list-style: none;
+}
+
+@media (max-width: 700px) {
   .navbar {
     width: 100vw !important;
     height: 4vh;
@@ -48,8 +47,6 @@
     color: white;
   }
   .navbar a:hover {
-    color:   rgb(46, 59, 120)
+    color: rgb(46, 59, 120);
   }
 }
-  
-  

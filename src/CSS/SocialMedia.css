@@ -1,108 +1,107 @@
 /* adapted from https://uiverse.io/wilsondesouza/cowardly-swan-91 */
 
 .example-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    z-index: 4;
-    transform: translate(-2vh, -33vh)
-  }
-  .example-2 .icon-content {
-    margin: 0 .1vh;
-    position: relative;
-    padding: 0.75vh;
-  }
-  .example-2 .icon-content .tooltip {
-    position: absolute;
-    top: 100%;
-    left: 115%;
-    transform: translateY(200%);
-    color: #fff;
-    padding: .45vh .5vh;
-    border-radius: .5vh;
-    opacity: 0;
-    visibility: hidden;
-    font-size: 2vh;
-    transition: all 0.3s ease;
-  }
-  .example-2 .icon-content:hover .tooltip {
-    opacity: 1;
-    visibility: visible;
-    top: -4.8vh;
-  }
-  .example-2 .icon-content a {
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 6vh;
-    height: 6vh;
-    border-radius: 50%;
-    color: #4d4d4d;
-    background-color: #fff;
-    transition: all 0.3s ease-in-out;
-  }
-  .example-2 .icon-content a:hover {
-    box-shadow: .3vh .2vh 4.5vh 0px rgb(0 0 0 / 12%);
-  }
-  .example-2 .icon-content a svg {
-    position: relative;
-    z-index: 1;
-    width: 3.5vh;
-    height: 3.5vh;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 4;
+  transform: translate(-2vh, -33vh);
+}
+.example-2 .icon-content {
+  margin: 0 0.1vh;
+  position: relative;
+  padding: 0.75vh;
+}
+.example-2 .icon-content .tooltip {
+  position: absolute;
+  top: 100%;
+  left: 115%;
+  transform: translateY(200%);
+  color: #fff;
+  padding: 0.45vh 0.5vh;
+  border-radius: 0.5vh;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 2vh;
+  transition: all 0.3s ease;
+}
+.example-2 .icon-content:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  top: -4.8vh;
+}
+.example-2 .icon-content a {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  color: #4d4d4d;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.example-2 .icon-content a:hover {
+  box-shadow: 0.3vh 0.2vh 4.5vh 0px rgb(0 0 0 / 12%);
+}
+.example-2 .icon-content a svg {
+  position: relative;
+  z-index: 1;
+  width: 3.5vh;
+  height: 3.5vh;
+}
 
-  #facebook {
-    width:4vh;
-    height: 4vh;
-  }
+#facebook {
+  width: 4vh;
+  height: 4vh;
+}
 
-  .example-2 .icon-content a svg {
-    position: relative;
-    z-index: 1;
-    width: 3.5vh;
-    height: 3.5vh;
-  }
+.example-2 .icon-content a svg {
+  position: relative;
+  z-index: 1;
+  width: 3.5vh;
+  height: 3.5vh;
+}
 
-  .example-2 .icon-content a:hover {
-    color: white;
-  }
-  .example-2 .icon-content a .filled {
-    position: absolute;
-    top: auto;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 0;
-    background-color: #000;
-    transition: all 0.1s ease-in-out;
-  }
-  .example-2 .icon-content a:hover .filled {
-    height: 100%;
-  }
-  
-  .example-2 .icon-content a[data-social="linkedin"] .filled,
-  .example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
-    background-color: #0274b3;
-  }
-  
-  .example-2 .icon-content a[data-social="github"] .filled,
-  .example-2 .icon-content a[data-social="github"] ~ .tooltip {
-    background-color: #24262a;
-  }
-  .example-2 .icon-content a[data-social="facebook"] .filled,
-  .example-2 .icon-content a[data-social="facebook"] ~ .tooltip {
-    background: #1877F2;
-  }
-  .example-2 .icon-content a[data-social="youtube"] .filled,
-  .example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
-    background-color: #ff0000;
-  }
+.example-2 .icon-content a:hover {
+  color: white;
+}
+.example-2 .icon-content a .filled {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #000;
+  transition: all 0.1s ease-in-out;
+}
+.example-2 .icon-content a:hover .filled {
+  height: 100%;
+}
 
+.example-2 .icon-content a[data-social="linkedin"] .filled,
+.example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
+  background-color: #0274b3;
+}
 
-@media (max-width: 600px) {
+.example-2 .icon-content a[data-social="github"] .filled,
+.example-2 .icon-content a[data-social="github"] ~ .tooltip {
+  background-color: #24262a;
+}
+.example-2 .icon-content a[data-social="facebook"] .filled,
+.example-2 .icon-content a[data-social="facebook"] ~ .tooltip {
+  background: #1877f2;
+}
+.example-2 .icon-content a[data-social="youtube"] .filled,
+.example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
+  background-color: #ff0000;
+}
+
+@media (max-width: 700px) {
   .example-2 {
     position: fixed;
     top: 10vh;
@@ -120,7 +119,11 @@
     margin-block-end: 0;
     margin-block-start: 0;
   }
-  
+
+  .example-2 .icon-content:hover .tooltip {
+    visibility: visible;
+  }
+
   .example-2 .icon-content a {
     width: 3.5vh;
     height: 3.5vh;
@@ -134,8 +137,7 @@
   }
 
   #facebook {
-    width:3vh;
+    width: 3vh;
     height: 3vh;
   }
-
 }

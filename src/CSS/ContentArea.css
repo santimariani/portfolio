@@ -125,7 +125,7 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   #contentArea {
     height: 81vh;
     width: 100vw;
@@ -195,6 +195,9 @@ footer {
     white-space: nowrap;
     z-index: 4;
     cursor: pointer;
+    right: 0;
+    color: #fff;
+    padding: 0;
   }
 
   #contactButton a {
