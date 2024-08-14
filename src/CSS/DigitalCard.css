@@ -17,7 +17,7 @@
   box-shadow: 0.5vh 0.5vh 1vh #000000b3;
 }
 
-.contactButton {
+.contactButtonDC {
   display: inline-block;
   margin-top: 2vh;
   padding: 1vh 2vh;
@@ -31,7 +31,7 @@
   transform: translateY(-2vh);
 }
 
-.contactButton:hover {
+.contactButtonDC:hover {
   background-color: rgb(46, 59, 120);
 }
 
@@ -56,7 +56,7 @@
     box-shadow: 0.5vh 0.5vh 1vh #000000b3;
   }
 
-  .contactButton {
+  .contactButtonDC {
     display: inline-block;
     margin-top: 2vh;
     padding: 1vh 2vh;
@@ -72,7 +72,7 @@
     transform: translateY(5vh);
   }
 
-  .contactButton:hover {
+  .contactButtonDC:hover {
     background-color: rgb(46, 59, 120);
   }
 }

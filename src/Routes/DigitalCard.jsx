@@ -9,12 +9,12 @@ const DigitalCard = () => {
   return (
     <div className="center">
       {/* <p id="digitalCardTitle">SCAN FOR CONTACT CARD</p> */}
-      <a href="https://popl.co/profile/wcWJJhaN" className="contactButton" target="_blank" rel="noopener noreferrer">
+      <a href="https://popl.co/profile/wcWJJhaN" className="contactButtonDC" target="_blank" rel="noopener noreferrer">
         DOWNLOAD MY CARD
       </a>
       <img src={MarianiDigitalCard} id="digitalCard"></img>
 
-      <Link to="/contact-me" className="contactButton">
+      <Link to="/contact-me" className="contactButtonDC">
         OR CONTACT ME HERE
       </Link>
     </div>
