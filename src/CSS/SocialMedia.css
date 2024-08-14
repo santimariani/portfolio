@@ -104,11 +104,38 @@
 
 @media (max-width: 600px) {
   .example-2 {
+    position: fixed;
+    top: 10vh;
+    height: 5vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    z-index: 4;
-    transform: translate(-5vh, -33vh)
+    flex-direction: row;
+    position: relative;
+    transform: none;
+    z-index: 7;
+    padding-inline-start: 0;
+    margin: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
   }
+  
+  .example-2 .icon-content a {
+    width: 3.5vh;
+    height: 3.5vh;
+  }
+
+  .example-2 .icon-content a svg {
+    position: relative;
+    z-index: 1;
+    width: 2.5vh;
+    height: 2.5vh;
+  }
+
+  #facebook {
+    width:3vh;
+    height: 3vh;
+  }
+
 }

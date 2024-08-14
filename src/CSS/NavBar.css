@@ -24,9 +24,9 @@
   }
   
   .navbar a:hover {
-    color: #007BFF; /* Optional: Change link color on hover */
+    color:   rgb(46, 59, 120) /* Optional: Change link color on hover */
   }
-  
+
   ul {
     list-style: none;
   }
@@ -35,15 +35,20 @@
 @media (max-width: 600px) {
   .navbar {
     width: 100vw !important;
-    position: absolute;
-    font-size: 3vh;
+    height: 4vh;
+    font-size: 3vw;
     font-weight: bold;
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex; /* Display list items in a row */
-    justify-content: left; /* Center the navigation items */
-    background-color: white;
+    justify-content: center; /* Center the navigation items */
+    align-items: center;
+    background-color: rgb(91, 174, 176);
+    color: white;
+  }
+  .navbar a:hover {
+    color:   rgb(46, 59, 120)
   }
 }
   

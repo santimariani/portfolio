@@ -28,10 +28,49 @@
   text-decoration: none;
   border-radius: 0.5vh;
   transition: background-color 0.3s ease;
-  transform: translateY(-2vh)
+  transform: translateY(-2vh);
 }
 
 .contactButton:hover {
   background-color: rgb(46, 59, 120);
 }
 
+@media (max-width: 600px) {
+  #digitalCardTitle {
+    width: 90%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: italic;
+    transform: translateY(4.5vh);
+    z-index: 5;
+    font-size: 2vh;
+  }
+
+  #digitalCard {
+    transform: translateY(5vh);
+    width: 40vh;
+    height: 40vh;
+    width: auto;
+    box-shadow: 0.5vh 0.5vh 1vh #000000b3;
+  }
+
+  .contactButton {
+    display: inline-block;
+    margin-top: 2vh;
+    padding: 1vh 2vh;
+    background-color: rgb(91, 174, 176);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0.5vh;
+    transition: background-color 0.3s ease;
+    transform: translateY(5vh);
+  }
+
+  .contactButton:hover {
+    background-color: rgb(46, 59, 120);
+  }
+}

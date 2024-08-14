@@ -16,6 +16,57 @@ header {
   text-align: center;
 }
 
+h1 {
+  width: auto;
+  position: absolute;
+  transform: translate(7.5vh, 21vh);
+  background-color: white;
+  color: rgb(91, 174, 176);
+  margin: 0;
+  padding: 0px 2.5vh;
+  z-index: 5;
+  font-size: 3vh;
+  white-space: nowrap;
+}
+
+h2 {
+  position: absolute;
+  right: 11.5%;
+  bottom: 11.5%;
+  background-color: white;
+  color: rgb(91, 174, 176);
+  margin: 0;
+  padding: 0px 2.5vh;
+  z-index: 5;
+  font-size: 3vh;
+  font-style: italic;
+}
+
+h2::before,
+h2::after {
+  content: "";
+  position: absolute;
+  bottom: -0.1vh;
+  width: 0;
+  height: 0.5vh;
+  background-color: rgb(91, 174, 176);
+  transition: width 0.4s ease-in-out;
+}
+
+h2::before {
+  left: 42.5%;
+}
+
+h2::after {
+  right: 42.5%;
+}
+
+h2:hover::before,
+h2:hover::after {
+  width: 50%;
+  cursor: pointer;
+}
+
 #name {
   font-size: 6vh;
   font-weight: bolder;
@@ -39,7 +90,7 @@ header {
   border-right: 0.6vh rgb(91, 174, 176) solid;
   transform: translateX(2.5vh);
   overflow: auto;
-  text-align:right;
+  text-align: right;
   align-items: right;
   font-size: 2.5vh;
 }
@@ -47,7 +98,7 @@ header {
 #contactButton {
   position: absolute;
   font-weight: bold;
-  text-decoration: none; 
+  text-decoration: none;
   right: 11vh;
   bottom: 11.15vh;
   color: #fff;
@@ -59,8 +110,8 @@ header {
 
 #contactButton a {
   font-size: 2.5vh;
-  text-decoration: none; 
-  color: inherit; 
+  text-decoration: none;
+  color: inherit;
 }
 
 #contactButton a:hover {
@@ -74,24 +125,130 @@ footer {
   text-align: center;
 }
 
-
 @media (max-width: 600px) {
-  #name {
-    width: 450px;
-    font-size: 3vh;
-    font-weight: bolder;
-    transform: translateX(-40%);
-    position: absolute;
-    z-index:4
+  #contentArea {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
   }
-  
+  header {
+    position: fixed;
+    height: 20vh;
+    width: 100vw;
+    top: 1vh;
+    left: 1vw;
+    transform: translate(-1vw, -1vh);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    z-index: 5;
+  }
+  #name {
+    width: 100vw;
+    font-size: 5.5vw;
+    font-weight: bolder;
+    color: white;
+  }
+
   #title {
-    width: 450px;
-    transform: translate(-40%, 110%);
+    width: 100vw;
+    font-size: 4.5vw;
+    font-style: italic;
+    color: rgb(215, 235, 227);
+    z-index: 4;
+  }
+
+  #mainContent {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 96vw;
+    border-bottom: 0.75vh rgb(91, 174, 176) solid;
+    border-top: 0.75vh rgb(91, 174, 176) solid;
+    border-left: 0.5vh rgb(91, 174, 176) double;
+    border-right: 0.5vh rgb(91, 174, 176) double;
+    overflow: scroll;
+    text-align: center;
+    align-items: center;
+    font-size: 2vh;
+    padding: 2.5vh;
+    transform: none;
+  }
+
+  #contactButton {
+    transform: none;
+    position: fixed;
+    font-weight: bold;
+    text-decoration: none;
+    height: 3vh;
+    width: auto;
+    left: 0vw;
+    bottom: 5vh;
+    color: #fff;
+    padding: 0;
+    white-space: nowrap;
+    z-index: 4;
+    cursor: pointer;
+  }
+
+  #contactButton a {
+    font-size: 2.5vh;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  #contactButton a:hover {
+    color: rgb(46, 59, 120);
+  }
+
+  h1 {
+    top: 17.5vh;
+    height: 2.5vh;
+    width: auto;
+    background-color: white;
+    color: rgb(91, 174, 176);
+    margin: 0;
+    font-size: 2.5vh;
+    white-space: nowrap;
+    text-align: left;
+    padding-left: .5vh;
+    padding-right: .5vh;
+    transform: none;
+    position: fixed;
+  }
+
+  h2 {
+    transform: none;
+    width: auto;
+    white-space: nowrap;
+    text-align: center;
+    padding: 0;
+    background-color: white;
+    color: rgb(91, 174, 176);
+    margin: 0;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+    z-index: 5;
     font-size: 2.25vh;
     font-style: italic;
-    position: absolute;
-    z-index:4
+  }
+  footer {
+    position: fixed;
+    width: 100vw;
+    height: 7vh;
+    bottom: -1vh;
+    left: -1vw;
+    transform: translate(1vw, 1vh);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 0;
   }
 }
-

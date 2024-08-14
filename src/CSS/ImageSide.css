@@ -56,7 +56,7 @@
   background-color: rgb(46, 59, 120);
   color: #fff;
   padding: 1vh 2vh;
-  border-radius: .5vh;
+  border-radius: 0.5vh;
   font-size: 3vh;
   white-space: nowrap;
   z-index: 4;
@@ -73,11 +73,39 @@
 
 @media (max-width: 600px) {
   #santiImage {
-    position: absolute;
-    height: 50vh !important;
-    width: 37.5vh !important;
-    z-index: 3;
-    scale: 1.4;
-    transform: translate(-18vh, 30vh) !important; 
+    display: none;
+  }
+  #imageSide {
+    height: 19vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+
+  #imageSideBackground {
+    content: "";
+    width: 100vw;
+    height: 12.5vh;
+    clip-path: none;
+    background: linear-gradient(to left, rgb(46, 59, 120), rgb(46, 102, 120));
+    z-index: 2;
+    box-shadow: 0vh 1vh 1vh rgba(0, 0, 0, 0.461);
+  }
+
+  #imageSideBorder {
+    content: "";
+    width: 50vw;
+    height: 5vh;
+    top: 10vh;
+    left: 25vw;
+    position: fixed;
+    border-radius: 5vh;
+    background-color: rgb(91, 174, 176);
+    clip-path: none;
+    z-index: 5;
+    transform: translateX(0vh);
+    box-shadow: 0vh .5vh 1vh rgba(0, 0, 0, 0.461);
+
   }
 }
