@@ -13,7 +13,6 @@ const DigitalCard = () => {
         DOWNLOAD MY CARD
       </a>
       <img src={MarianiDigitalCard} id="digitalCard"></img>
-
       <Link to="/contact-me" className="contactButtonDC">
         OR CONTACT ME HERE
       </Link>
