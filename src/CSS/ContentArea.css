@@ -127,7 +127,7 @@ footer {
 
 @media (max-width: 600px) {
   #contentArea {
-    height: 70vh;
+    height: 81vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -167,7 +167,7 @@ footer {
   #mainContent {
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 65vh;
     width: 96vw;
     border-bottom: 0.75vh rgb(91, 174, 176) solid;
     border-top: 0.75vh rgb(91, 174, 176) solid;

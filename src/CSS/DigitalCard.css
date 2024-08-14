@@ -50,8 +50,8 @@
 
   #digitalCard {
     transform: translateY(5vh);
-    width: 30vh;
-    height: 30vh;
+    width: 50vw;
+    height: 50vw;
     width: auto;
     box-shadow: 0.5vh 0.5vh 1vh #000000b3;
   }
