@@ -311,18 +311,18 @@
     height: 25%;
     text-align: left;
     overflow: visible;
-    font-size: 2.5vh;
+    font-size: 2vh;
   }
 
   #commentsSection .bold {
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 2.5vh;
+    font-size: 2vh;
   }
 
   #commentsSection .italics {
     font-style: italic;
-    font-size: 2.5vh;
+    font-size: 2vh;
   }
 
   .navLink {

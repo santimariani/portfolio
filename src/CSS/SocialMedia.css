@@ -121,7 +121,9 @@
   }
 
   .example-2 .icon-content:hover .tooltip {
+    opacity: 1;
     visibility: visible;
+    top: -10vh;
   }
 
   .example-2 .icon-content a {
