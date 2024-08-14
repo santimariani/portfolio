@@ -50,8 +50,8 @@
 
   #digitalCard {
     transform: translateY(5vh);
-    width: 50vw;
-    height: 50vw;
+    width: 63vw;
+    height: 63vw;
     width: auto;
     box-shadow: 0.5vh 0.5vh 1vh #000000b3;
   }
@@ -60,7 +60,9 @@
     display: inline-block;
     margin-top: 2vh;
     padding: 1vh 2vh;
-    background-color: rgb(91, 174, 176);
+    width: 56vw;
+    margin-bottom: 1vh;
+    background-color: rgba(91, 175, 176, 0.782);
     color: white;
     text-transform: uppercase;
     font-weight: bold;
