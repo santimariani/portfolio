@@ -29,15 +29,19 @@
 
 .imageWrapper {
   position: relative;
-  display: inline-block;
+  display: flex;
+  z-index: 3;
+  align-items: flex-end;
 }
 
 #santiImage {
-  position: absolute;
-  height: 100vh;
-  width: 75vh;
+  height: auto;
+  max-height: 100vh;
+  max-width: 40vw;
+  object-fit: contain; 
+
   z-index: 3;
-  transform: translateX(-12.5vh);
+  transform: translateX(-5vw);
   will-change: filter;
   transition: filter 300ms;
 }
@@ -71,7 +75,7 @@
   visibility: visible;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   #santiImage {
     display: none;
   }
@@ -105,7 +109,6 @@
     clip-path: none;
     z-index: 5;
     transform: translateX(0vh);
-    box-shadow: 0vh .5vh 1vh rgba(0, 0, 0, 0.461);
-
+    box-shadow: 0vh 0.5vh 1vh rgba(0, 0, 0, 0.461);
   }
 }

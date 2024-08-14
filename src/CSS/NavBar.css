@@ -1,5 +1,5 @@
 .navbar {
-  font-size: 3vh;
+  font-size: calc(1.25vh + .75vw);
   font-weight: bold;
   list-style-type: none;
   padding: 0;
@@ -20,7 +20,7 @@
 .navbar a {
   text-decoration: none; /* Remove underline */
   color: inherit; /* Use the inherited text color */
-  padding: 0.75vh; /* Optional: Add some padding around the link */
+  padding: 0.4vh; /* Optional: Add some padding around the link */
 }
 
 .navbar a:hover {
@@ -31,11 +31,11 @@ ul {
   list-style: none;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .navbar {
     width: 100vw !important;
     height: 4vh;
-    font-size: 3vw;
+    font-size: calc(1.25vh + .75vw);
     font-weight: bold;
     list-style-type: none;
     padding: 0;

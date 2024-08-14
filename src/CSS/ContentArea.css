@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  justify-content: space-between;
+  justify-content: start;
   position: relative;
 }
 
@@ -14,31 +14,38 @@ header {
   flex-direction: column;
   padding-top: 2.5vh;
   text-align: center;
+  height: 15vh;
+  max-height: 25vh;
 }
 
 h1 {
   width: auto;
   position: absolute;
-  transform: translate(7.5vh, 21vh);
+  top: 16vh;
+  left: 2.5vw;
   background-color: white;
   color: rgb(91, 174, 176);
   margin: 0;
-  padding: 0px 2.5vh;
+  padding-left: .5vw;
+  padding-right: .5vw;
   z-index: 5;
-  font-size: 3vh;
+  font-size: calc(1vh + 1vw);
+  height: 3vh;
   white-space: nowrap;
 }
 
 h2 {
   position: absolute;
-  right: 11.5%;
-  bottom: 11.5%;
+  bottom: 2vh;
+  left: 9.5vw;
   background-color: white;
   color: rgb(91, 174, 176);
   margin: 0;
-  padding: 0px 2.5vh;
+  padding-left: .5vw;
+  padding-right: .5vw;
   z-index: 5;
-  font-size: 3vh;
+  font-size: calc(1vh + 1vw);
+  height: 3vh;
   font-style: italic;
 }
 
@@ -68,19 +75,30 @@ h2:hover::after {
 }
 
 #name {
-  font-size: 6vh;
+  font-size: calc(2vh + 1.3vw);
   font-weight: bolder;
+  min-width: 60vw;
+  max-width: 60vw;
+  max-height: 15vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #title {
-  font-size: 5vh;
+  font-size: calc(1.8vh + 1.1vw);
   font-style: italic;
+  max-width: 60vw;
+  max-height: 10vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #mainContent {
   display: flex;
   flex-direction: column;
-  height: 65vh;
+  height: 70vh;
   width: 55vw;
   box-sizing: border-box;
   padding: 2.5vh;
@@ -96,11 +114,11 @@ h2:hover::after {
 }
 
 #contactButton {
-  position: absolute;
   font-weight: bold;
   text-decoration: none;
-  right: 11vh;
-  bottom: 11.15vh;
+  position: fixed;
+  right: 25%;
+  bottom: 10vh;
   color: #fff;
   padding: 1vh 2vh;
   white-space: nowrap;
@@ -123,9 +141,11 @@ footer {
   flex-direction: column;
   padding-bottom: 2.5vh;
   text-align: center;
+  justify-content: end;
+  height: 10vh;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   #contentArea {
     height: 81vh;
     width: 100vw;
@@ -148,17 +168,27 @@ footer {
     flex-direction: column;
     text-align: center;
     z-index: 5;
+    max-height: none;
   }
   #name {
+    min-width: none;
+    max-width: none;
+    max-height: none;
+    transform: translateY(-1vh);
     width: 100vw;
-    font-size: 5.5vw;
+    font-size: calc(2vh + 1.3vw);
     font-weight: bolder;
     color: white;
   }
 
   #title {
+    min-width: none;
+    max-width: none;
+    max-height: none;
+    transform: translateY(-1vh);
+
     width: 100vw;
-    font-size: 4.5vw;
+    font-size: calc(1.8vh + 1.1vw);
     font-style: italic;
     color: rgb(215, 235, 227);
     z-index: 4;
@@ -178,6 +208,7 @@ footer {
     align-items: center;
     font-size: 2vh;
     padding: 2.5vh;
+    box-sizing: border-box;
     transform: none;
   }
 
@@ -211,6 +242,7 @@ footer {
 
   h1 {
     top: 17.5vh;
+    left:auto;
     height: 2.5vh;
     width: auto;
     background-color: white;
@@ -226,7 +258,6 @@ footer {
   }
 
   h2 {
-    transform: none;
     left: 50%;
     transform: translateX(-50%);
     width: auto;
@@ -252,5 +283,7 @@ footer {
     text-align: center;
     align-items: center;
     padding: 0;
+    justify-content: left;
+
   }
 }
