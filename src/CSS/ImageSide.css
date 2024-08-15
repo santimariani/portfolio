@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: row;
   position: relative;
+  overflow: hidden; /* Ensure no overflow on the image side */
+
 }
 
 #imageSideBackground {
