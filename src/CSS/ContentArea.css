@@ -21,7 +21,7 @@ header {
 h1 {
   width: auto;
   position: absolute;
-  top: 16vh;
+  top: 15vh;
   left: 2.5vw;
   background-color: white;
   color: rgb(91, 174, 176);
@@ -36,7 +36,7 @@ h1 {
 
 h2 {
   position: absolute;
-  bottom: 2vh;
+  bottom: 1vh;
   left: 9.5vw;
   background-color: white;
   color: rgb(91, 174, 176);
