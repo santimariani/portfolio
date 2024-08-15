@@ -35,7 +35,7 @@
   background-color: rgb(46, 59, 120);
 }
 
-@media (max-width: 850px), (orientation: landscape) {
+@media (max-width: 850px) {
   #digitalCardTitle {
     width: 75%;
     text-align: center;

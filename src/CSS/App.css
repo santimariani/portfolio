@@ -34,7 +34,7 @@ p {
   overflow: hidden;
 }
 
-@media (max-width: 850px), (orientation: landscape) {
+@media (max-width: 850px) {
   body {
     margin: 0;
     padding: 0;

@@ -144,7 +144,7 @@ footer {
   height: 10vh;
 }
 
-@media (max-width: 850px), (orientation: landscape) {
+@media (max-width: 850px) {
   #contentArea {
     height: 81vh;
     width: 100vw;
