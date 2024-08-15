@@ -74,7 +74,7 @@
   visibility: visible;
 }
 
-@media (max-width: 850px) and (orientation: landscape) {
+@media (max-width: 850px), (orientation: landscape) {
   #santiImage {
     display: none;
   }

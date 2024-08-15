@@ -101,7 +101,7 @@
   background-color: #ff0000;
 }
 
-@media (max-width: 850px) and (orientation: landscape) {
+@media (max-width: 850px), (orientation: landscape) {
   .example-2 {
     position: fixed;
     top: 10vh;

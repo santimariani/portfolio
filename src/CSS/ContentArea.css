@@ -144,7 +144,7 @@ footer {
   height: 10vh;
 }
 
-@media (max-width: 850px) and (orientation: landscape) {
+@media (max-width: 850px), (orientation: landscape) {
   #contentArea {
     height: 81vh;
     width: 100vw;
@@ -262,6 +262,7 @@ footer {
     width: auto;
     white-space: nowrap;
     padding: 0;
+    bottom: 2vh;
     background-color: white;
     color: rgb(91, 174, 176);
     margin: 0;

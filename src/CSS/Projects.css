@@ -176,7 +176,7 @@
   font-style: italic;
 }
 
-@media (max-width: 850px) and (orientation: landscape) {
+@media (max-width: 850px), (orientation: landscape) {
   #overalGrid {
     width: 100vw;
     height: 100vh;
