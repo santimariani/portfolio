@@ -7,7 +7,6 @@
   text-align: center;
   justify-content: start;
   position: relative;
-  overflow: hidden;
 }
 
 header {
@@ -99,7 +98,6 @@ h2:hover::after {
   flex-direction: column;
   height: 75vh;
   max-height: 75vh;
-  min-height: 60vh; /* Set a minimum height */
   width: 55vw;
   box-sizing: border-box;
   padding: 2.5vh;
@@ -108,7 +106,7 @@ h2:hover::after {
   border-left: 0.6vh rgb(91, 174, 176) solid;
   border-right: 0.6vh rgb(91, 174, 176) solid;
   transform: translateX(2.5vh);
-  overflow-y: auto; /* Enable vertical scrolling */
+  overflow: auto;
   text-align: right;
   align-items: right;
   font-size: 2.5vh;
@@ -148,7 +146,7 @@ footer {
 
 @media (max-width: 750px) {
   #contentArea {
-    height: auto; /* Use auto to adjust to content height */
+    height: 81vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -199,20 +197,18 @@ footer {
     display: flex;
     flex-direction: column;
     max-height: 60vh;
-    min-height: 50vh; /* Ensure there's a minimum height */
     width: 96vw;
     border-bottom: 0.75vh rgb(91, 174, 176) solid;
     border-top: 0.75vh rgb(91, 174, 176) solid;
     border-left: 0.5vh rgb(91, 174, 176) double;
     border-right: 0.5vh rgb(91, 174, 176) double;
-    overflow-y: scroll;
+    overflow: scroll;
     text-align: center;
     align-items: center;
     font-size: 2vh;
     padding: 2.5vh;
     box-sizing: border-box;
     transform: none;
-    
   }
 
   #contactButton {
