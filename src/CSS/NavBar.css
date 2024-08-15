@@ -31,7 +31,7 @@ ul {
   list-style: none;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   .navbar {
     width: 100vw !important;
     height: 4vh;

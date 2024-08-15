@@ -176,7 +176,7 @@
   font-style: italic;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   #overalGrid {
     width: 100vw;
     height: 100vh;
