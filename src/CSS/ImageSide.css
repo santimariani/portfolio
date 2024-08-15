@@ -37,11 +37,10 @@
 #santiImage {
   height: auto;
   max-height: 100vh;
-  max-width: 40vw;
+  max-width: 38.5vw;
   object-fit: contain; 
-
   z-index: 3;
-  transform: translateX(-5vw);
+  transform: translateX(-10.5vw);
   will-change: filter;
   transition: filter 300ms;
 }

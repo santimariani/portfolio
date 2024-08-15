@@ -15,7 +15,7 @@ header {
   padding-top: 2.5vh;
   text-align: center;
   height: 15vh;
-  max-height: 25vh;
+  max-height: 15vh;
 }
 
 h1 {
@@ -75,11 +75,11 @@ h2:hover::after {
 }
 
 #name {
-  font-size: calc(2vh + 1.3vw);
+  font-size: calc(2vh + 1.2vw);
   font-weight: bolder;
   min-width: 60vw;
   max-width: 60vw;
-  max-height: 15vw;
+  max-height: 9vh;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -88,7 +88,7 @@ h2:hover::after {
   font-size: calc(1.8vh + 1.1vw);
   font-style: italic;
   max-width: 60vw;
-  max-height: 10vw;
+  max-height: 6vh;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -96,8 +96,8 @@ h2:hover::after {
 #mainContent {
   display: flex;
   flex-direction: column;
-  height: 70vh;
-  max-height: 70vh;
+  height: 75vh;
+  max-height: 75vh;
   width: 55vw;
   box-sizing: border-box;
   padding: 2.5vh;
