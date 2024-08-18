@@ -29,6 +29,7 @@
   border-radius: 0.5vh;
   transition: background-color 0.3s ease;
   transform: translateY(-2vh);
+  margin-bottom: 2vh;
 }
 
 .contactButtonDC:hover {
@@ -63,7 +64,7 @@
     margin-top: 2vh;
     padding: 1vh 2vh;
     width: 56vw;
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
     background-color: rgba(91, 175, 176, 0.782);
     color: white;
     text-transform: uppercase;

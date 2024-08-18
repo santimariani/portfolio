@@ -27,6 +27,12 @@
   color: rgb(46, 59, 120); /* Optional: Change link color on hover */
 }
 
+.navbar a.active {
+  color: rgb(46, 59, 120);  /* Highlight color when active */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 ul {
   list-style: none;
 }
@@ -48,5 +54,10 @@ ul {
   }
   .navbar a:hover {
     color: rgb(46, 59, 120);
+  }
+  .navbar a.active {
+    color: rgb(46, 59, 120);  /* Highlight color when active */
+    font-weight: bold;
+    text-decoration: none;
   }
 }

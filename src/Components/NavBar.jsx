@@ -1,23 +1,25 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink, useLocation} from "react-router-dom";
 
 import "../CSS/NavBar.css";
 
 const NavBar = () => {
+  const location = useLocation();
+
   return (
     <nav>
       <ul className="navbar">
         <li>
-          <Link to="/">ABOUT ME</Link>
+          <NavLink to="/">ABOUT ME</NavLink>
         </li>
         <li>
-          <Link to="/projects">PROJECTS</Link>
+          <NavLink to="/projects">PROJECTS</NavLink>
         </li>
         <li>
-          <Link to="/resume">RESUME</Link>
+          <NavLink to="/resume">SKILLS & RESUME</NavLink>
         </li>
         <li>
-          <Link to="/digital-card">DIGITAL CARD</Link>
+          <NavLink to="/digital-card">DIGITAL CARD</NavLink>
         </li>
       </ul>
     </nav>
