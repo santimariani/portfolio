@@ -82,7 +82,7 @@ const About = () => {
         life. My observant brother (a classy geek and bona fide dork) encouraged
         me to take a closer look at coding, knowing it would wash with so many
         fun chemicals my ADHD brain, oh-so-OCD prone. And so I became — at long
-        happy last — a software developer, ready to bring more beauty and order
+        happy last — a software developer, ready to bring greater beauty and order
         to the world through code.
         <br></br>
         <br></br>
