@@ -1,23 +1,20 @@
-#overalGrid {
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 1.5fr 1fr;
-}
-
-#topRow {
+#overallGrid {
+  display: flex;
+  flex-direction: row;
   width: 100%;
-  height: 75%;
-  height: auto;
-  display: grid;
-  grid-template-columns: 4fr 1fr;
+  height: 100%;
+  gap: 1vh;
 }
 
-#topLeftSide {
+#leftSide {
   display: flex;
   flex-direction: column;
+  justify-content: left;
+  align-items: left;
   padding-right: 3vh;
   border-right: 0.25vh solid #ccc;
+    overflow: auto;
+
 }
 
 #titleArea {
@@ -32,44 +29,42 @@
   font-style: italic;
   padding-bottom: 1vh;
 }
-#thumbnailArea {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
 
-#prevNextThumbnails {
+#thumbnailArea {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 1vh;
 }
 
 .square {
-  width: 65%;
+  width: 15%;
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   cursor: pointer;
 }
 
 .square img {
   max-width: 100%;
-  max-height: 100%;
   object-fit: cover;
   box-shadow: 0.25vh 0.25vh 0.5vh rgba(0, 0, 0, 0.7);
+  margin-bottom: 0.25vh;
 }
 
 .square p {
-  color: rgb(91, 174, 176);
+  color: rgba(91, 175, 176, 0.654);
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.75vh;
+  font-size: calc(1.25vh + 0.25vw);
   font-style: italic;
 }
 
 #mainProjectThumbail {
+  max-width: 65%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -85,16 +80,19 @@
 }
 
 #mainProjectThumbail:hover img {
-  transform: scale(1.1);
+  transform: scale(1.4);
+  z-index: 5;
+  box-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.7);
 }
 
-#topRightSide {
+#rightSide {
+  min-width: 30%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
-  padding-left: 2.5vh;
-  overflow: visible;
+  justify-content: left;
+  padding-left: 1vh;
+  overflow-y: auto;
 }
 
 .projectButton,
@@ -119,8 +117,10 @@
   text-align: center;
 }
 
-#topRightSide .active {
-  background-color: rgb(91, 174, 176);
+.projectButton.active,
+.projectButtonOutliers.active {
+  background-color: rgb(91, 174, 176); 
+  color: #fff; 
 }
 
 #commentsSection {
@@ -129,21 +129,20 @@
   padding-top: 2.5vh;
   box-sizing: border-box;
   width: 100%;
-  height: 25%;
   text-align: left;
   overflow: visible;
-  font-size: 2.5vh;
+  font-size: calc(1.5vh + 0.5vw);
 }
 
 #commentsSection .bold {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 2.5vh;
+  font-size: calc(1.5vh + 0.5vw);
 }
 
 #commentsSection .italics {
   font-style: italic;
-  font-size: 2.5vh;
+  font-size: calc(1.5vh + 0.5vw);
 }
 
 .navLink {
@@ -177,25 +176,17 @@
 }
 
 @media (max-width: 850px) {
-  #overalGrid {
-    width: 100vw;
-    height: 100vh;
+  #overallGrid {
+    flex-direction: column;
+    overflow-y: auto;
   }
 
-  #topRow {
-    width: 100%;
-    height: 75%;
-    height: auto;
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  #topLeftSide {
+  #leftSide {
     display: flex;
     flex-direction: column;
     padding-right: 0vh;
     border-right: 0vh solid #ccc;
-
+    min-height: 50%;
   }
 
   #titleArea {
@@ -212,7 +203,7 @@
   }
   #thumbnailArea {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
   }
 
   #prevNextThumbnails {
@@ -266,7 +257,7 @@
     transform: scale(1.1);
   }
 
-  #topRightSide {
+  #rightSide {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -298,7 +289,7 @@
     text-align: center;
   }
 
-  #topRightSide .active {
+  #rightSide .active {
     background-color: rgb(91, 174, 176);
   }
 
@@ -311,24 +302,24 @@
     height: 25%;
     text-align: left;
     overflow: visible;
-    font-size: 2vh;
+    font-size: 1rem;
   }
 
   #commentsSection .bold {
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 2vh;
+    font-size: 1rem;
   }
 
   #commentsSection .italics {
     font-style: italic;
-    font-size: 2vh;
+    font-size: 1.2rem;
   }
 
   .navLink {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Use the inherited text color */
-    padding: 0.75vh; /* Optional: Add some padding around the link */
+    text-decoration: none;
+    color: inherit;
+    padding: 0.75vh;
   }
 
   .navLink:hover {

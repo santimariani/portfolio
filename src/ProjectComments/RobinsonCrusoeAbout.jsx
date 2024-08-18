@@ -3,7 +3,11 @@ const RobinsonCrusoeAbout = () => {
     <>
       <p>
         <span className="bold">LINK:</span>
-        <a href="https://github.com/santimariani/crusoe" className="navLink" target="_blank">
+        <a
+          href="https://github.com/santimariani/crusoe"
+          className="navLink"
+          target="_blank"
+        >
           GitHub Repository
         </a>
       </p>

@@ -100,96 +100,107 @@ const Projects = () => {
 
   return (
     <section id="overallGrid">
-      <div id="topRow">
-        <div id="topLeftSide">
-          <div id="titleArea">{boxTitle}</div>
-          <div id="thumbnailArea">
-            <div id="prevNextThumbnails">
-              <div
-                className="square"
-                onClick={() => setCurrentProjectKey(prevProjectKey)}
-              >
-                {prevProjectComponent}
-                <p>Prev</p>
-              </div>
-              <div
-                className="square"
-                onClick={() => setCurrentProjectKey(nextProjectKey)}
-              >
-                {nextProjectComponent}
-                <p>Next</p>
-              </div>
-            </div>
-            <div id="mainProjectThumbail">
-              {
-                ProjectsArray.find(
-                  (project) => project.key === currentProjectKey
-                ).component
-              }
-            </div>
+      <div id="leftSide">
+        <div id="titleArea">{boxTitle}</div>
+        <div id="thumbnailArea">
+          <div
+            className="square"
+            onClick={() => setCurrentProjectKey(prevProjectKey)}
+          >
+            {prevProjectComponent}
+            <p>Prev</p>
+          </div>
+          <div id="mainProjectThumbail">
+            {
+              ProjectsArray.find((project) => project.key === currentProjectKey)
+                .component
+            }
+          </div>
+          <div
+            className="square"
+            onClick={() => setCurrentProjectKey(nextProjectKey)}
+          >
+            {nextProjectComponent}
+            <p>Next</p>
           </div>
         </div>
-        <div id="topRightSide">
-          <button
-            className={`projectButtonOutliers ${
-              currentProjectKey === "hundredDays" ? "active" : ""
-            }`}
-            onClick={() => setCurrentProjectKey("hundredDays")}
-          >
-            ALL PROJECTS
-          </button>
-          <button
-            className={`projectButton ${
-              currentProjectKey === "hundredDays" ? "active" : ""
-            }`}
-            onClick={() => setCurrentProjectKey("hundredDays")}
-          >
-            Python RPG
-          </button>
-          <button
-            className={`projectButton ${
-              currentProjectKey === "magicEight" ? "active" : ""
-            }`}
-            onClick={() => setCurrentProjectKey("magicEight")}
-          >
-            Magic 8-Ball
-          </button>
-          <button
-            className={`projectButton ${
-              currentProjectKey === "theater" ? "active" : ""
-            }`}
-            onClick={() => setCurrentProjectKey("theater")}
-          >
-            Dynamic Theater API
-          </button>
-          <button
-            className={`projectButton ${
-              currentProjectKey === "robinsonCrusoe" ? "active" : ""
-            }`}
-            onClick={() => setCurrentProjectKey("robinsonCrusoe")}
-          >
-            Cinematic Crusoe
-          </button>
-          <button
-            className={`projectButton ${
-              currentProjectKey === "shrinkify" ? "active" : ""
-            }`}
-            onClick={() => setCurrentProjectKey("shrinkify")}
-          >
-            URL SHRINKIFIER
-          </button>
-          <button
-            className={`projectButton ${
-              currentProjectKey === "ultimateFighter" ? "active" : ""
-            }`}
-            onClick={() => setCurrentProjectKey("ultimateFighter")}
-          >
-            Ultimate Fighter 2
-          </button>
-          
-        </div>
+        <div id="commentsSection">{commentSection}</div>
+
       </div>
-      <div id="commentsSection">{commentSection}</div>
+      <div id="rightSide">
+        <button
+          className={`projectButtonOutliers ${
+            currentProjectKey === "hundredDays" ? "active" : ""
+          }`}
+          onClick={() => setCurrentProjectKey("hundredDays")}
+        >
+          ALL PROJECTS
+        </button>
+        <button
+          className={`projectButton ${
+            currentProjectKey === "hundredDays" ? "active" : ""
+          }`}
+          onClick={() => setCurrentProjectKey("hundredDays")}
+        >
+          Python RPG
+        </button>
+        <button
+          className={`projectButton ${
+            currentProjectKey === "magicEight" ? "active" : ""
+          }`}
+          onClick={() => setCurrentProjectKey("magicEight")}
+        >
+          Magic 8-Ball
+        </button>
+        <button
+          className={`projectButton ${
+            currentProjectKey === "theater" ? "active" : ""
+          }`}
+          onClick={() => setCurrentProjectKey("theater")}
+        >
+          Dynamic Theater API
+        </button>
+        <button
+          className={`projectButton ${
+            currentProjectKey === "robinsonCrusoe" ? "active" : ""
+          }`}
+          onClick={() => setCurrentProjectKey("robinsonCrusoe")}
+        >
+          Cinematic Crusoe
+        </button>
+        <button
+          className={`projectButton ${
+            currentProjectKey === "shrinkify" ? "active" : ""
+          }`}
+          onClick={() => setCurrentProjectKey("shrinkify")}
+        >
+          URL SHRINKIFIER
+        </button>
+        <button
+          className={`projectButton ${
+            currentProjectKey === "ultimateFighter" ? "active" : ""
+          }`}
+          onClick={() => setCurrentProjectKey("ultimateFighter")}
+        >
+          ULTIMATE FIGHTER II
+        </button>
+        <button
+          className={`projectButton ${
+            currentProjectKey === "ultimateFighter" ? "active" : ""
+          }`}
+          onClick={() => setCurrentProjectKey("ultimateFighter")}
+        >
+          PERSONAL PORTFOLIO
+        </button>
+        <button
+          className={`projectButton ${
+            currentProjectKey === "ultimateFighter" ? "active" : ""
+          }`}
+          onClick={() => setCurrentProjectKey("ultimateFighter")}
+        >
+          UF2 - REVISITED
+        </button>
+      </div>
     </section>
   );
 };

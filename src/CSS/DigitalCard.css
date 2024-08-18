@@ -19,7 +19,7 @@
 
 .contactButtonDC {
   display: inline-block;
-  margin-top: 2vh;
+  margin-top: 1.5vh;
   padding: 1vh 2vh;
   background-color: rgb(91, 174, 176);
   color: white;
@@ -29,6 +29,8 @@
   border-radius: 0.5vh;
   transition: background-color 0.3s ease;
   transform: translateY(-2vh);
+  margin-bottom: 1.5vh;
+
 }
 
 .contactButtonDC:hover {
