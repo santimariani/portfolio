@@ -19,7 +19,7 @@ const About = () => {
         <br></br>
         <br></br>
         For the front-end, I was equipped with JavaScript, React, HTML, and CSS.
-        For the back-end, FastAPI, PostgreSQL, and Supabase became my friends. On
+        For the back-end, Python, FastAPI, PostgreSQL, and Supabase became my friends. On
         the horizon, Next.js, TypeScript, and Tailwind beckon me onward. Not a
         dull moment is expected at any turn!
         <br></br>
