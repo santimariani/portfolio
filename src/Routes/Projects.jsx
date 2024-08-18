@@ -56,16 +56,16 @@ const ProjectsArray = [
   {
     component: <UltimateFighter />,
     key: "ultimateFighter",
-    title: "ULTIMATE FIGHTER 2",
+    title: "ULTIMATE FIGHTER II",
     comment: <UltimateFighterAbout />,
   },
 ];
 
 const Projects = () => {
-  const [currentProjectKey, setCurrentProjectKey] = useState("hundredDays");
-  const [prevProjectKey, setPrevProjectKey] = useState("ultimateFighter");
-  const [nextProjectKey, setNextProjectKey] = useState("magicEight");
-  const [boxTitle, setBoxTitle] = useState("100 Days to Victory");
+  const [currentProjectKey, setCurrentProjectKey] = useState("ultimateFighter");
+  const [prevProjectKey, setPrevProjectKey] = useState("hundredDays");
+  const [nextProjectKey, setNextProjectKey] = useState("shrinkify");
+  const [boxTitle, setBoxTitle] = useState("ULTIMATE FIGHTER II");
   const [commentSection, setCommentSection] = useState(
     <UltimateFighterAbout />
   );
