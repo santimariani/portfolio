@@ -88,7 +88,7 @@ const About = () => {
         <br></br>
         In my spare time, I enjoy hiking with friends, watching others play
         Minecraft, and -not- talking long walks on the beach, lest the sand get
-        in everywhere.
+        in every-which-spot.
         <br></br>
         <br></br>
         Thank you for taking the time to get to know me! Now join me on my
