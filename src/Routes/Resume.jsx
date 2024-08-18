@@ -4,7 +4,7 @@ const Resume = () => {
   return (
     <>
       <iframe
-        src="/MarianiResume.pdf#zoom=80"
+        src="/MarianiResume.pdf#zoom=67"
         width="100%"
         height="600px"
         style={{ border: "none" }}
