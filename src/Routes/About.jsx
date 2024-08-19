@@ -29,8 +29,8 @@ const About = () => {
         interfaces, an ever-passionate goal! And beyond the visible, I enjoy
         employing sound logic and best principles to create solid apps that go
         above-and-beyond. For more on the evolution of my software development
-        journey and to continue the 'techy' branch of my bio, step over my{" "}
-        <Link to="/projects">Projects</Link> section right next door!
+        journey and to continue the 'techy' branch of my bio, step over to my{" "}
+        <Link to="/projects">Projects</Link> section, right next door!
         <br></br>
         <br></br>
         With the essentials taken care of, feel free now to keep on reading at
