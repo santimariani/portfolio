@@ -118,7 +118,7 @@ const About = () => {
         <br></br>
         Until then, I had been aspiring to be 'financially free.' This was the
         path to which I had given my all! It was why I had majored in finance.
-        It was why I did my every project. It was why I had accepted this
+        It was why I had done my every project. It was why I had accepted this
         internship when even asked at all...
         <br></br>
         <br></br>
