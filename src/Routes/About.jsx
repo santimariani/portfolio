@@ -153,7 +153,7 @@ const About = () => {
         found, even in the most difficult of circumstances. Those of different
         cultures showed me how we all have one same intrinsic longing... a
         common and equal dignity... a single human fabric from which we are
-        weaved and made to grow.
+        woven and made to grow.
         <br></br>
         <br></br>
         And thus I returned to my beloved Spartanburg after those ten years,
