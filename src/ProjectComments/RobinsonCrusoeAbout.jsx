@@ -13,14 +13,14 @@ const RobinsonCrusoeAbout = () => {
       </p>
       <br></br>
       <p>
-        For the next step-up, I use FastAPI to interact with a self-created
-        database. To go the extra mile, I challenge myself to create "blinking
-        eyes" as if one were a character in a movie.{" "}
+        For the next step-up, I used FastAPI to interact with a self-created
+        database, which I made using PostgreSQL. To go the extra mile, I challenged myself to create "blinking
+        eyes" as if one were waking up on a beach after a boat crash... blurry vision and all. Yet, most excitingly, I <span className="italics">finally</span> pulled off adding video to a project! And so, {" "}
         <span className="italics">
           The Utterly Curious & Stupendously Miraculous Redemption of One Mister
           Robinson Crusoe, Not Esquire
         </span>{" "}
-        is thus born!{" "}
+        was gleefully born.{" "}
       </p>
     </>
   );

@@ -12,7 +12,7 @@ const ShrinkifyAbout = () => {
         </p>
         <br></br>
         <p>
-            I focus on constructing a Single Page Application, using React Router for higher efficiency. I add safe user creation and authentication through tokens and password hashing/salting, plus a URL shrinking mechanism.
+            With this project, I focused primarily on constructing a Single Page Application, learning to use React Router for higher efficiency. In addition, I added a safe method for user creation and authentication through tokens and password hashing/salting. Hence, I was able to block off parts of the website based on clearance, an added layer of experience to my coding arsenal!
         </p>
       </>
     );

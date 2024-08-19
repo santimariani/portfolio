@@ -13,7 +13,7 @@ const MagicEightAbout = () => {
         </p>
         <br></br>
         <p>
-          For my second project, I begin to explore the world of CSS <span className="italics">transformations</span>, going beyond what is demanded for the class requirements. Imagination becomes my ally as I add a space event horizon, and <span className="italics">event listeners</span> in JS allow me to bring more life to my projects. My love of coding deepens.
+          For my second project, I began to explore the world of CSS <span className="italics">transformations</span>, going far beyond what was strictly demanded to complete the class requirements — so eager was I to learn ever more! Imagination became my ally as I sought to merge the visual concepts of "Eight Ball" with that of "space event horizon." And so, by using JavaScript <span className="italics">event listeners</span>, I began to feel like a Green Lantern, able to bring <span className="italics">anything</span> into existence. My love for code deepened. We journeyed on!
         </p>
       </>
     );
