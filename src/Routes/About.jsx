@@ -29,7 +29,8 @@ const About = () => {
         interfaces, an ever-passionate goal! And beyond the visible, I enjoy
         employing sound logic and best principles to create solid apps that go
         above-and-beyond. For more on the evolution of my software development
-        journey, see my <Link to="/projects">Projects</Link> below!
+        journey and to continue the 'techy' branch of my bio, see my{" "}
+        <Link to="/projects">Projects</Link> next door!
         <br></br>
         <br></br>
         With the essentials taken care of, feel free now to keep on reading at
@@ -123,7 +124,7 @@ const About = () => {
         <br></br>
         Yet after hearing that admission, I was forever a changed man, having
         been spared decades of mindless wandering. My heart thus embarked on a
-        different adventure. A new path became trod. 
+        different adventure. A new path became trod.
         <br></br>
         <br></br>
         <span className="bold">IN PURSUIT OF A GREATER LOVE</span>
