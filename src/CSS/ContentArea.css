@@ -85,7 +85,7 @@ h2:hover::after {
 }
 
 #title {
-  font-size: calc(1.8vh + 1.1vw);
+  font-size: calc(1.75vh + 1.05vw);
   font-style: italic;
   max-width: 60vw;
   max-height: 6vh;
