@@ -122,9 +122,9 @@ const About = () => {
         internship when even asked at all...
         <br></br>
         <br></br>
-        Yet after hearing that admission, I was forever a changed man, having
-        been spared decades of mindless wandering. My heart thus embarked on a
-        different adventure. A new path became trod.
+        Yet after hearing that admission, I was forever a changed man, feeling
+        like I had been spared decades of mindless wandering. My heart thus
+        embarked on a different adventure. A new path became trod.
         <br></br>
         <br></br>
         <span className="bold">IN PURSUIT OF A GREATER LOVE</span>
