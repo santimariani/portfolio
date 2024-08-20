@@ -1,0 +1,78 @@
+#skillsSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2vh;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin-top: 1vh;
+  justify-content: center;
+  justify-items: center;
+}
+
+.skillsDiv {
+  display: flex;
+  height: 75%;
+  width: 75%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(46, 59, 120); /* Darker blue */
+  border-radius: 0.5vh;
+  color: #ffffff;
+  padding: 2vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+.skillsDiv::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(91, 174, 176); /* Tealish blue */
+  border-radius: 0.5vh;
+  z-index: -1;
+  transform: translate(10px, 10px);
+}
+
+.skillsDiv h3 {
+  font-size: 2.5vh;
+  margin-bottom: 1vh;
+  text-transform: uppercase;
+}
+
+.skillsDiv h4 {
+  font-size: 2.15vh;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media (max-width: 850px) {
+  #skillsSection {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    height: auto;
+  }
+
+  .skillsDiv {
+    width: 90%;
+    height: fit-content;
+    margin: 1vh auto;
+    padding: 4vh 2vh;
+  }
+
+  .skillsDiv h2 {
+    font-size: 2vh;
+  }
+
+  .skillsDiv p {
+    font-size: 1.8vh;
+  }
+}

@@ -15,8 +15,11 @@ const ContentArea = () => {
       case "/":
         setBoxTitle("ABOUT ME");
         break;
+      case "/skills":
+        setBoxTitle("SKILLS");
+        break;
       case "/resume":
-        setBoxTitle("SKILLS & RESUME");
+        setBoxTitle("RESUME");
         break;
       case "/hidden-resume":
         setBoxTitle("HOW DID YOU GET HERE?!");

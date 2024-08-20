@@ -19,18 +19,15 @@ const About = () => {
         classroom walls.
         <br></br>
         <br></br>
-        For the front-end, I was equipped with JavaScript, React, HTML, and CSS.
-        For the back-end, Python, FastAPI, PostgreSQL, and Supabase became my
-        tools-to-go. On the horizon, Next.js, TypeScript, and Tailwind beckon me
-        onward. Not a single dull moment is expected at any turn.
-        <br></br>
-        <br></br>
         User experience is at the forefront of my every project — unique
         interfaces, an ever-passionate goal. And beyond the visible, I enjoy
         employing sound logic and best principles to create solid apps that go
-        above-and-beyond. For more on the evolution of my software development
+        above-and-beyond! 
+        <br></br>
+        <br></br>
+        For more on the evolution of my software development
         journey and to continue the 'techy' branch of my bio, step over to my{" "}
-        <Link to="/projects">Projects</Link> section, right next door!
+        <Link to="/projects">Projects</Link> section, right next door! Or, for a brief professional snapshot, check out my <Link to="/skills">Skills</Link> and <Link to="/skills">Resume</Link> instead.
         <br></br>
         <br></br>
         With the essentials taken care of, feel free now to keep on reading at
