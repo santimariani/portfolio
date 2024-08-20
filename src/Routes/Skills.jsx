@@ -7,7 +7,7 @@ const Skills = () => {
       {/* Front-End Skills */}
       <div className="skillsDiv" id="frontendDiv">
         <h3>Front-End</h3>
-        <h4>JavaScript • Phaser <br></br>React • React Router <br></br> HTML • CSS</h4>
+        <h4>JavaScript • TypeScript <br></br>React (Router) •  Next.js • Jest <br></br> HTML • CSS • Tailwind</h4>
       </div>
 
       {/* Back-End Skills */}
