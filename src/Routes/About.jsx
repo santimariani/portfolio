@@ -22,12 +22,15 @@ const About = () => {
         User experience is at the forefront of my every project — unique
         interfaces, an ever-passionate goal. And beyond the visible, I enjoy
         employing sound logic and best principles to create solid apps that go
-        above-and-beyond! 
+        above-and-beyond!
         <br></br>
         <br></br>
-        For more on the evolution of my software development
-        journey and to continue the 'techy' branch of my bio, step over to my{" "}
-        <Link to="/projects">Projects</Link> section, right next door! Or, for a brief professional snapshot, check out my <Link to="/skills">Skills</Link> and <Link to="/skills">Resume</Link> instead.
+        For more on the evolution of my software development journey and to
+        continue the 'techy' branch of my bio, step over to my{" "}
+        <Link to="/projects">Projects</Link> section, right next door! Or, for a
+        brief professional snapshot, check out my{" "}
+        <Link to="/skills">Skills</Link> and <Link to="/resume">Resume</Link>{" "}
+        instead — compliments of the house!
         <br></br>
         <br></br>
         With the essentials taken care of, feel free now to keep on reading at
@@ -75,16 +78,16 @@ const About = () => {
         <br></br>
         (I also continued performing as a singer during this time and was even
         the protagonist in a children's opera,{" "}
-        <span className="italics">Sid the Serpent Who Wanted to Sing</span>.
-        But as I had to wear a leotard for this one, we do not talk about this,
-        nay, not even in whispers. Who even -is- this Sid fellow of old?!)
+        <span className="italics">Sid the Serpent Who Wanted to Sing</span>. But
+        as I had to wear a leotard for this one, we do not talk about this, nay,
+        not even in whispers. Who even -is- this Sid fellow of old?!)
         <br></br>
         <br></br>
         Balancing my creative outlets, my financial classes helped me to look at
-        challenges through a more an analytical mindset. Attention to detail
-        became a constant necessity, the application of mathematics a daily
-        must. "How boring," some might say. Yet I loved every moment of it! And
-        so I earned the{" "}
+        challenges through a more analytical mindset. Attention to detail became
+        a constant necessity, the application of mathematics a daily must. "How
+        boring," some might say. Yet I loved every moment of it! And so I earned
+        the{" "}
         <span className="italics">
           Departmental Award for Academic Achievement, Scholarly Promise, and
           Intellectual and Moral Integrity
@@ -141,21 +144,21 @@ const About = () => {
         found, even in the most difficult of circumstances. I understood more
         deeply how we all are woven from the same human tapestry. My perspective
         widened as I worked with others of drastically different backgrounds; my
-        inner landscape became more lush.
+        inner landscape became more varied and lush.
         <br></br>
         <br></br>
         And thus I returned to my beloved Spartanburg after those ten years,
         thankful for the graces received, thankful to once again be among family
-        and friends... thankful to once again be home.
+        and friends... thankful to have returned home.
         <br></br>
         <br></br>
         <span className="bold">TWO ROADS CONVERGE</span>
         <br></br>
         <br></br>
         The year was 2020, and the world, for a while, turned off. I played a
-        lot of Stardew Valley and then pivoted towards a new career. I became a
-        realtor, wedding the previous world of finance with the newer one of
-        service work.
+        lot of Stardew Valley while wrestling with COVID for months and then
+        pivoted towards a new career. I became a realtor, wedding the previous
+        world of finance with the newer one of service work.
         <br></br>
         <br></br>
         As a realtor, I had to learn to understand my clients' true needs, going
@@ -176,19 +179,19 @@ const About = () => {
         <br></br>
         <br></br>
         Toes were stepped on, lessons learned, and leadership skills sharpened
-        as I weighed the needs of individuals within the scope of that of the
+        as I weighed the needs of individuals within the scope of those of the
         whole.
         <br></br>
         <br></br>
         <span className="bold">AND NOW... A HAPPY TOAST</span>
         <br></br>
         <br></br>
-        Yet what would be the point of all work and no fun?! Hence, while
+        Yet what would be the point of all work with no fun?! Hence, while
         juggling all this, I also became a co-creator for the{" "}
         <span className="italics">Spartanburg Cocktail Masters</span>... and at
         the prompting, no less, of a cop! Thanks to that, hundreds of people
         have since gathered in Spartanburg to taste the samples of 15 local
-        competitors — battling it out to be the next Spartanburg Cocktail
+        competitors — all battling it out to be the next Spartanburg Cocktail
         Master, all to support a local cause. For Spartanburg, if you haven't
         noticed, rocks!
         <br></br>
@@ -197,7 +200,7 @@ const About = () => {
         especially as it pertained to managing priorities, expectations, and
         deadlines. Sponsors, vendors, competitors, venues, judges, licenses,
         insurance, laws, and so much more had to be juggled to bring this event
-        to life! And so I learned to delegate what I could not do to those who
+        into existence! And so I learned to delegate what I could not do to those who
         could, and what I <span className="italics">could</span> do to those who
         could do it <span className="italics">better</span>. Due to its success,
         the event has been adopted by a state-wide organization, itself a new
