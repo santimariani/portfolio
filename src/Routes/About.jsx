@@ -33,16 +33,23 @@ const About = () => {
         instead — compliments of the house!
         <br></br>
         <br></br>
-        With the essentials taken care of, feel free now to keep on reading at
-        your own peril, for to do so will mean going knee-deep into the realm of
-        Santi Lore. Think twice before doing it! Yet not thrice, lest drama
+        <span className="bold">SANTI ALLA GLANCE</span>
+        <br></br>
+        <br></br>
+        Originally from Argentina, I moved to the U.S. in 1996 and embraced the challenges of adapting to a new culture. Graduating <span className="italics">summa cum laude</span> in Finance from Wofford College, I developed a passion for problem-solving and entrepreneurship. After a decade of impactful non-profit work around the world, I returned to Spartanburg, pivoted to a career in real estate, and grew as a content creator and community leader.
+        <br></br>
+        <br></br>
+In 2020, I co-founded the <span className="italics">Spartanburg Cocktail Masters</span> and further honed my leadership skills. Encouraged by my brother, I discovered a love for coding, merging creativity with logic to become a software developer. Now, I’m eager to bring beauty and order to the world through code, all while enjoying life’s adventures with friends and family.
+<br></br>
+<br></br>
+        Now that the essentials have been professioanlly summarized, feel free to keep on reading to dive knee-deep into Santi Lore. So think twice before doing it! Yet not thrice, lest drama
         queens get bored.
         <br></br>
         <br></br>
         <span className="bold">"DON'T CRY FOR ME..."</span>
         <br></br>
         <br></br>
-        Originally born in Argentina (
+        Born in Buenos Aires, Argentina (
         <span className="italics">hablo español</span>), I moved to the United
         States in 1996 with my parents and one brother, falling in love with my
         new home. While learning a new language had its immense challenges, it
