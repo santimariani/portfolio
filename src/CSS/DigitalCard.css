@@ -30,6 +30,8 @@
   transition: background-color 0.3s ease;
   transform: translateY(-2vh);
   margin-bottom: 2vh;
+  box-shadow: 0.25vh 0.25vh 0.5vh rgba(0, 0, 0, 0.7);
+
 }
 
 .contactButtonDC:hover {

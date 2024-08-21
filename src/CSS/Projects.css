@@ -113,6 +113,7 @@
   border: none;
   text-transform: uppercase;
   transition: background-color 0.3s ease;
+  
 }
 
 .projectButtonOutliers {
@@ -122,6 +123,7 @@
 
 #topRightSide .active {
   background-color: rgb(91, 174, 176);
+  
 }
 
 #commentsSection {
