@@ -25,7 +25,7 @@ const ContactForm = () => {
           }, 5000);
         },
         (error) => {
-          setStateMessage("Something went wrong, please try again later");
+          setStateMessage("Something went wrong, please try again later or contact me directly.");
           setIsSubmitting(false);
           setTimeout(() => {
             setStateMessage(null);
