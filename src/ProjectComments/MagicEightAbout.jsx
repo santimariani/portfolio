@@ -15,6 +15,11 @@ const MagicEightAbout = () => {
           href="https://santimariani.github.io/magic_ball/"
           className="navLink"
           target="_blank"
+          style={{
+            color: "blue",
+            textDecoration: "underline",
+            cursor: "pointer",
+          }}
         >
           Try It Here!
         </a>
