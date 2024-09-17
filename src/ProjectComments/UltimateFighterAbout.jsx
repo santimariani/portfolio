@@ -8,7 +8,7 @@ const UltimateFighterAbout = () => {
           </a>•
           <a href="https://ultimate-fighter-ii.netlify.app/" className="navLink" target="_blank"
           >
-            Try It! (Online Demo)
+            Try It Here!
           </a>
         </p>
         <p>
